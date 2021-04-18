@@ -1,0 +1,66 @@
+# Nmap 7.01 scan initiated Thu Aug 10 06:17:38 2017 as: nmap -oA smb-enum-users_26 --script=smb-enum-users 192.168.0.26
+Nmap scan report for 192.168.0.26
+Host is up (0.00019s latency).
+Not shown: 972 closed ports
+PORT     STATE SERVICE
+7/tcp    open  echo
+9/tcp    open  discard
+13/tcp   open  daytime
+17/tcp   open  qotd
+19/tcp   open  chargen
+25/tcp   open  smtp
+80/tcp   open  http
+119/tcp  open  nntp
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+443/tcp  open  https
+445/tcp  open  microsoft-ds
+563/tcp  open  snews
+1025/tcp open  NFS-or-IIS
+1026/tcp open  LSA-or-nterm
+1028/tcp open  unknown
+1433/tcp open  ms-sql-s
+1723/tcp open  pptp
+3306/tcp open  mysql
+3372/tcp open  msdtc
+3389/tcp open  ms-wbt-server
+5001/tcp open  commplex-link
+5800/tcp open  vnc-http
+5900/tcp open  vnc
+8009/tcp open  ajp13
+8080/tcp open  http-proxy
+8081/tcp open  blackice-icecap
+8443/tcp open  https-alt
+
+Host script results:
+| smb-enum-users: 
+|   TOM2000\Administrator (RID: 500)
+|     Description: Built-in account for administering the computer/domain
+|     Flags:       Normal user account, Password does not expire
+|   TOM2000\ASPNET (RID: 1005)
+|     Full name:   ASP.NET Machine Account
+|     Description: Account used for running the ASP.NET worker process (aspnet_wp.exe)
+|     Flags:       Password not required, Normal user account, Password does not expire
+|   TOM2000\Guest (RID: 501)
+|     Description: Built-in account for guest access to the computer/domain
+|     Flags:       Password not required, Normal user account, Account disabled, Password does not expire
+|   TOM2000\IUSR_WIN2K (RID: 1001)
+|     Full name:   Internet Guest Account
+|     Description: Built-in account for anonymous access to Internet Information Services
+|     Flags:       Password not required, Normal user account, Password does not expire
+|   TOM2000\IWAM_WIN2K (RID: 1002)
+|     Full name:   Launch IIS Process Account
+|     Description: Built-in account for Internet Information Services to start out of process applications
+|     Flags:       Password not required, Normal user account, Password does not expire
+|   TOM2000\john (RID: 1004)
+|     Full name:   john
+|     Flags:       Normal user account, Password does not expire
+|   TOM2000\max (RID: 1003)
+|     Full name:   max
+|     Flags:       Normal user account, Password does not expire
+|   TOM2000\TsInternetUser (RID: 1000)
+|     Full name:   TsInternetUser
+|     Description: This user account is used by Terminal Services.
+|_    Flags:       Password not required, Normal user account, Password does not expire
+
+# Nmap done at Thu Aug 10 06:17:52 2017 -- 1 IP address (1 host up) scanned in 13.40 seconds

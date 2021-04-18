@@ -1,0 +1,4 @@
+# Nmap 7.01 scan initiated Thu Aug 10 06:21:10 2017 as: nmap -oA smb-enum-shares_33 --script=smb-enum-shares 192.168.0.33
+Host: 192.168.0.33 ()	Status: Up
+Host: 192.168.0.33 ()	Ports: 53/open/tcp//domain///, 80/open/tcp//http///, 88/open/tcp//kerberos-sec///, 135/open/tcp//msrpc///, 139/open/tcp//netbios-ssn///, 389/open/tcp//ldap///, 443/open/tcp//https///, 445/open/tcp//microsoft-ds///, 464/open/tcp//kpasswd5///, 593/open/tcp//http-rpc-epmap///, 636/open/tcp//ldapssl///, 1025/open/tcp//NFS-or-IIS///, 1026/open/tcp//LSA-or-nterm///, 1028/open/tcp//unknown///, 1723/open/tcp//pptp///, 3001/open/tcp//nessus///, 3005/open/tcp//deslogin///, 3013/open/tcp//gilatskysurfer///, 3268/open/tcp//globalcatLDAP///, 3269/open/tcp//globalcatLDAPssl///, 3389/open/tcp//ms-wbt-server///	Ignored State: closed (979)
+# Nmap done at Thu Aug 10 06:21:23 2017 -- 1 IP address (1 host up) scanned in 13.32 seconds

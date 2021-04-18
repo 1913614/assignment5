@@ -1,0 +1,50 @@
+# Nmap 7.01 scan initiated Thu Aug 10 06:21:10 2017 as: nmap -oA smb-enum-shares_33 --script=smb-enum-shares 192.168.0.33
+Nmap scan report for 192.168.0.33
+Host is up (0.00094s latency).
+Not shown: 979 closed ports
+PORT     STATE SERVICE
+53/tcp   open  domain
+80/tcp   open  http
+88/tcp   open  kerberos-sec
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+389/tcp  open  ldap
+443/tcp  open  https
+445/tcp  open  microsoft-ds
+464/tcp  open  kpasswd5
+593/tcp  open  http-rpc-epmap
+636/tcp  open  ldapssl
+1025/tcp open  NFS-or-IIS
+1026/tcp open  LSA-or-nterm
+1028/tcp open  unknown
+1723/tcp open  pptp
+3001/tcp open  nessus
+3005/tcp open  deslogin
+3013/tcp open  gilatskysurfer
+3268/tcp open  globalcatLDAP
+3269/tcp open  globalcatLDAPssl
+3389/tcp open  ms-wbt-server
+
+Host script results:
+| smb-enum-shares: 
+|   account_used: <blank>
+|   ADMIN$: 
+|     warning: Couldn't get details for share: NT_STATUS_WERR_ACCESS_DENIED (srvsvc.netsharegetinfo)
+|     Anonymous access: <none>
+|   C$: 
+|     warning: Couldn't get details for share: NT_STATUS_WERR_ACCESS_DENIED (srvsvc.netsharegetinfo)
+|     Anonymous access: <none>
+|   E$: 
+|     warning: Couldn't get details for share: NT_STATUS_WERR_ACCESS_DENIED (srvsvc.netsharegetinfo)
+|     Anonymous access: <none>
+|   IPC$: 
+|     warning: Couldn't get details for share: NT_STATUS_WERR_ACCESS_DENIED (srvsvc.netsharegetinfo)
+|     Anonymous access: READ
+|   NETLOGON: 
+|     warning: Couldn't get details for share: NT_STATUS_WERR_ACCESS_DENIED (srvsvc.netsharegetinfo)
+|     Anonymous access: <none>
+|   SYSVOL: 
+|     warning: Couldn't get details for share: NT_STATUS_WERR_ACCESS_DENIED (srvsvc.netsharegetinfo)
+|_    Anonymous access: <none>
+
+# Nmap done at Thu Aug 10 06:21:23 2017 -- 1 IP address (1 host up) scanned in 13.32 seconds

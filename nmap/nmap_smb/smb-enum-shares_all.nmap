@@ -1,0 +1,370 @@
+# Nmap 7.01 scan initiated Thu Aug 10 07:57:07 2017 as: nmap -v2 -oA smb-enum-shares --script=smb-enum-shares 192.168.0.0/24
+Nmap scan report for 192.168.0.0 [host down, received net-unreach]
+Nmap scan report for 192.168.0.1 [host down, received no-response]
+Nmap scan report for 192.168.0.2 [host down, received no-response]
+Nmap scan report for 192.168.0.3 [host down, received no-response]
+Nmap scan report for 192.168.0.4 [host down, received no-response]
+Nmap scan report for 192.168.0.5 [host down, received no-response]
+Nmap scan report for 192.168.0.6 [host down, received no-response]
+Nmap scan report for 192.168.0.7 [host down, received no-response]
+Nmap scan report for 192.168.0.8 [host down, received no-response]
+Nmap scan report for 192.168.0.9 [host down, received no-response]
+Nmap scan report for 192.168.0.10 [host down, received no-response]
+Nmap scan report for 192.168.0.13 [host down, received no-response]
+Nmap scan report for 192.168.0.17 [host down, received no-response]
+Nmap scan report for 192.168.0.18 [host down, received no-response]
+Nmap scan report for 192.168.0.19 [host down, received no-response]
+Nmap scan report for 192.168.0.20 [host down, received no-response]
+Nmap scan report for 192.168.0.23 [host down, received no-response]
+Nmap scan report for 192.168.0.24 [host down, received no-response]
+Nmap scan report for 192.168.0.25 [host down, received no-response]
+Nmap scan report for 192.168.0.26 [host down, received no-response]
+Nmap scan report for 192.168.0.27 [host down, received no-response]
+Nmap scan report for 192.168.0.28 [host down, received no-response]
+Nmap scan report for 192.168.0.29 [host down, received no-response]
+Nmap scan report for 192.168.0.30 [host down, received no-response]
+Nmap scan report for 192.168.0.31 [host down, received no-response]
+Nmap scan report for 192.168.0.32 [host down, received no-response]
+Nmap scan report for 192.168.0.34 [host down, received no-response]
+Nmap scan report for 192.168.0.35 [host down, received no-response]
+Nmap scan report for 192.168.0.36 [host down, received no-response]
+Nmap scan report for 192.168.0.37 [host down, received no-response]
+Nmap scan report for 192.168.0.38 [host down, received no-response]
+Nmap scan report for 192.168.0.39 [host down, received no-response]
+Nmap scan report for 192.168.0.40 [host down, received no-response]
+Nmap scan report for 192.168.0.41 [host down, received no-response]
+Nmap scan report for 192.168.0.42 [host down, received no-response]
+Nmap scan report for 192.168.0.43 [host down, received no-response]
+Nmap scan report for 192.168.0.44 [host down, received no-response]
+Nmap scan report for 192.168.0.45 [host down, received no-response]
+Nmap scan report for 192.168.0.46 [host down, received no-response]
+Nmap scan report for 192.168.0.47 [host down, received no-response]
+Nmap scan report for 192.168.0.48 [host down, received no-response]
+Nmap scan report for 192.168.0.49 [host down, received no-response]
+Nmap scan report for 192.168.0.50 [host down, received no-response]
+Nmap scan report for 192.168.0.51 [host down, received no-response]
+Nmap scan report for 192.168.0.52 [host down, received no-response]
+Nmap scan report for 192.168.0.53 [host down, received no-response]
+Nmap scan report for 192.168.0.54 [host down, received no-response]
+Nmap scan report for 192.168.0.55 [host down, received no-response]
+Nmap scan report for 192.168.0.56 [host down, received no-response]
+Nmap scan report for 192.168.0.57 [host down, received no-response]
+Nmap scan report for 192.168.0.58 [host down, received no-response]
+Nmap scan report for 192.168.0.59 [host down, received no-response]
+Nmap scan report for 192.168.0.60 [host down, received no-response]
+Nmap scan report for 192.168.0.61 [host down, received no-response]
+Nmap scan report for 192.168.0.62 [host down, received no-response]
+Nmap scan report for 192.168.0.63 [host down, received no-response]
+Nmap scan report for 192.168.0.64 [host down, received no-response]
+Nmap scan report for 192.168.0.65 [host down, received no-response]
+Nmap scan report for 192.168.0.66 [host down, received no-response]
+Nmap scan report for 192.168.0.67 [host down, received no-response]
+Nmap scan report for 192.168.0.68 [host down, received no-response]
+Nmap scan report for 192.168.0.69 [host down, received no-response]
+Nmap scan report for 192.168.0.70 [host down, received no-response]
+Nmap scan report for 192.168.0.71 [host down, received no-response]
+Nmap scan report for 192.168.0.72 [host down, received no-response]
+Nmap scan report for 192.168.0.73 [host down, received no-response]
+Nmap scan report for 192.168.0.74 [host down, received no-response]
+Nmap scan report for 192.168.0.75 [host down, received no-response]
+Nmap scan report for 192.168.0.76 [host down, received no-response]
+Nmap scan report for 192.168.0.77 [host down, received no-response]
+Nmap scan report for 192.168.0.78 [host down, received no-response]
+Nmap scan report for 192.168.0.79 [host down, received no-response]
+Nmap scan report for 192.168.0.80 [host down, received no-response]
+Nmap scan report for 192.168.0.81 [host down, received no-response]
+Nmap scan report for 192.168.0.82 [host down, received no-response]
+Nmap scan report for 192.168.0.83 [host down, received no-response]
+Nmap scan report for 192.168.0.84 [host down, received no-response]
+Nmap scan report for 192.168.0.85 [host down, received no-response]
+Nmap scan report for 192.168.0.86 [host down, received no-response]
+Nmap scan report for 192.168.0.87 [host down, received no-response]
+Nmap scan report for 192.168.0.88 [host down, received no-response]
+Nmap scan report for 192.168.0.89 [host down, received no-response]
+Nmap scan report for 192.168.0.90 [host down, received no-response]
+Nmap scan report for 192.168.0.91 [host down, received no-response]
+Nmap scan report for 192.168.0.92 [host down, received no-response]
+Nmap scan report for 192.168.0.93 [host down, received no-response]
+Nmap scan report for 192.168.0.94 [host down, received no-response]
+Nmap scan report for 192.168.0.95 [host down, received no-response]
+Nmap scan report for 192.168.0.96 [host down, received no-response]
+Nmap scan report for 192.168.0.97 [host down, received no-response]
+Nmap scan report for 192.168.0.98 [host down, received no-response]
+Nmap scan report for 192.168.0.99 [host down, received no-response]
+Nmap scan report for 192.168.0.100 [host down, received no-response]
+Nmap scan report for 192.168.0.101 [host down, received no-response]
+Nmap scan report for 192.168.0.102 [host down, received no-response]
+Nmap scan report for 192.168.0.103 [host down, received no-response]
+Nmap scan report for 192.168.0.104 [host down, received no-response]
+Nmap scan report for 192.168.0.105 [host down, received no-response]
+Nmap scan report for 192.168.0.106 [host down, received no-response]
+Nmap scan report for 192.168.0.107 [host down, received no-response]
+Nmap scan report for 192.168.0.108 [host down, received no-response]
+Nmap scan report for 192.168.0.109 [host down, received no-response]
+Nmap scan report for 192.168.0.110 [host down, received no-response]
+Nmap scan report for 192.168.0.111 [host down, received no-response]
+Nmap scan report for 192.168.0.112 [host down, received no-response]
+Nmap scan report for 192.168.0.113 [host down, received no-response]
+Nmap scan report for 192.168.0.114 [host down, received no-response]
+Nmap scan report for 192.168.0.115 [host down, received no-response]
+Nmap scan report for 192.168.0.116 [host down, received no-response]
+Nmap scan report for 192.168.0.117 [host down, received no-response]
+Nmap scan report for 192.168.0.118 [host down, received no-response]
+Nmap scan report for 192.168.0.119 [host down, received no-response]
+Nmap scan report for 192.168.0.120 [host down, received no-response]
+Nmap scan report for 192.168.0.121 [host down, received no-response]
+Nmap scan report for 192.168.0.122 [host down, received no-response]
+Nmap scan report for 192.168.0.123 [host down, received no-response]
+Nmap scan report for 192.168.0.124 [host down, received no-response]
+Nmap scan report for 192.168.0.125 [host down, received no-response]
+Nmap scan report for 192.168.0.126 [host down, received no-response]
+Nmap scan report for 192.168.0.127 [host down, received no-response]
+Nmap scan report for 192.168.0.128 [host down, received no-response]
+Nmap scan report for 192.168.0.129 [host down, received no-response]
+Nmap scan report for 192.168.0.130 [host down, received no-response]
+Nmap scan report for 192.168.0.131 [host down, received no-response]
+Nmap scan report for 192.168.0.132 [host down, received no-response]
+Nmap scan report for 192.168.0.133 [host down, received no-response]
+Nmap scan report for 192.168.0.134 [host down, received no-response]
+Nmap scan report for 192.168.0.135 [host down, received no-response]
+Nmap scan report for 192.168.0.136 [host down, received no-response]
+Nmap scan report for 192.168.0.137 [host down, received no-response]
+Nmap scan report for 192.168.0.138 [host down, received no-response]
+Nmap scan report for 192.168.0.139 [host down, received no-response]
+Nmap scan report for 192.168.0.140 [host down, received no-response]
+Nmap scan report for 192.168.0.141 [host down, received no-response]
+Nmap scan report for 192.168.0.142 [host down, received no-response]
+Nmap scan report for 192.168.0.143 [host down, received no-response]
+Nmap scan report for 192.168.0.144 [host down, received no-response]
+Nmap scan report for 192.168.0.145 [host down, received no-response]
+Nmap scan report for 192.168.0.146 [host down, received no-response]
+Nmap scan report for 192.168.0.147 [host down, received no-response]
+Nmap scan report for 192.168.0.148 [host down, received no-response]
+Nmap scan report for 192.168.0.149 [host down, received no-response]
+Nmap scan report for 192.168.0.150 [host down, received no-response]
+Nmap scan report for 192.168.0.151 [host down, received no-response]
+Nmap scan report for 192.168.0.152 [host down, received no-response]
+Nmap scan report for 192.168.0.153 [host down, received no-response]
+Nmap scan report for 192.168.0.154 [host down, received no-response]
+Nmap scan report for 192.168.0.155 [host down, received no-response]
+Nmap scan report for 192.168.0.156 [host down, received no-response]
+Nmap scan report for 192.168.0.157 [host down, received no-response]
+Nmap scan report for 192.168.0.158 [host down, received no-response]
+Nmap scan report for 192.168.0.159 [host down, received no-response]
+Nmap scan report for 192.168.0.160 [host down, received no-response]
+Nmap scan report for 192.168.0.161 [host down, received no-response]
+Nmap scan report for 192.168.0.162 [host down, received no-response]
+Nmap scan report for 192.168.0.163 [host down, received no-response]
+Nmap scan report for 192.168.0.164 [host down, received no-response]
+Nmap scan report for 192.168.0.165 [host down, received no-response]
+Nmap scan report for 192.168.0.166 [host down, received no-response]
+Nmap scan report for 192.168.0.167 [host down, received no-response]
+Nmap scan report for 192.168.0.168 [host down, received no-response]
+Nmap scan report for 192.168.0.169 [host down, received no-response]
+Nmap scan report for 192.168.0.170 [host down, received no-response]
+Nmap scan report for 192.168.0.171 [host down, received no-response]
+Nmap scan report for 192.168.0.172 [host down, received no-response]
+Nmap scan report for 192.168.0.173 [host down, received no-response]
+Nmap scan report for 192.168.0.174 [host down, received no-response]
+Nmap scan report for 192.168.0.175 [host down, received no-response]
+Nmap scan report for 192.168.0.176 [host down, received no-response]
+Nmap scan report for 192.168.0.177 [host down, received no-response]
+Nmap scan report for 192.168.0.178 [host down, received no-response]
+Nmap scan report for 192.168.0.179 [host down, received no-response]
+Nmap scan report for 192.168.0.180 [host down, received no-response]
+Nmap scan report for 192.168.0.181 [host down, received no-response]
+Nmap scan report for 192.168.0.182 [host down, received no-response]
+Nmap scan report for 192.168.0.183 [host down, received no-response]
+Nmap scan report for 192.168.0.184 [host down, received no-response]
+Nmap scan report for 192.168.0.185 [host down, received no-response]
+Nmap scan report for 192.168.0.186 [host down, received no-response]
+Nmap scan report for 192.168.0.187 [host down, received no-response]
+Nmap scan report for 192.168.0.188 [host down, received no-response]
+Nmap scan report for 192.168.0.189 [host down, received no-response]
+Nmap scan report for 192.168.0.190 [host down, received no-response]
+Nmap scan report for 192.168.0.191 [host down, received no-response]
+Nmap scan report for 192.168.0.192 [host down, received no-response]
+Nmap scan report for 192.168.0.193 [host down, received no-response]
+Nmap scan report for 192.168.0.194 [host down, received no-response]
+Nmap scan report for 192.168.0.195 [host down, received no-response]
+Nmap scan report for 192.168.0.196 [host down, received no-response]
+Nmap scan report for 192.168.0.197 [host down, received no-response]
+Nmap scan report for 192.168.0.198 [host down, received no-response]
+Nmap scan report for 192.168.0.199 [host down, received no-response]
+Nmap scan report for 192.168.0.200 [host down, received no-response]
+Nmap scan report for 192.168.0.201 [host down, received no-response]
+Nmap scan report for 192.168.0.202 [host down, received no-response]
+Nmap scan report for 192.168.0.203 [host down, received no-response]
+Nmap scan report for 192.168.0.204 [host down, received no-response]
+Nmap scan report for 192.168.0.205 [host down, received no-response]
+Nmap scan report for 192.168.0.206 [host down, received no-response]
+Nmap scan report for 192.168.0.207 [host down, received no-response]
+Nmap scan report for 192.168.0.208 [host down, received no-response]
+Nmap scan report for 192.168.0.209 [host down, received no-response]
+Nmap scan report for 192.168.0.210 [host down, received no-response]
+Nmap scan report for 192.168.0.211 [host down, received no-response]
+Nmap scan report for 192.168.0.212 [host down, received no-response]
+Nmap scan report for 192.168.0.213 [host down, received no-response]
+Nmap scan report for 192.168.0.214 [host down, received no-response]
+Nmap scan report for 192.168.0.215 [host down, received no-response]
+Nmap scan report for 192.168.0.216 [host down, received no-response]
+Nmap scan report for 192.168.0.217 [host down, received no-response]
+Nmap scan report for 192.168.0.218 [host down, received no-response]
+Nmap scan report for 192.168.0.219 [host down, received no-response]
+Nmap scan report for 192.168.0.220 [host down, received no-response]
+Nmap scan report for 192.168.0.221 [host down, received no-response]
+Nmap scan report for 192.168.0.222 [host down, received no-response]
+Nmap scan report for 192.168.0.223 [host down, received no-response]
+Nmap scan report for 192.168.0.224 [host down, received no-response]
+Nmap scan report for 192.168.0.225 [host down, received no-response]
+Nmap scan report for 192.168.0.226 [host down, received no-response]
+Nmap scan report for 192.168.0.227 [host down, received no-response]
+Nmap scan report for 192.168.0.228 [host down, received no-response]
+Nmap scan report for 192.168.0.229 [host down, received no-response]
+Nmap scan report for 192.168.0.230 [host down, received no-response]
+Nmap scan report for 192.168.0.231 [host down, received no-response]
+Nmap scan report for 192.168.0.232 [host down, received no-response]
+Nmap scan report for 192.168.0.233 [host down, received no-response]
+Nmap scan report for 192.168.0.234 [host down, received no-response]
+Nmap scan report for 192.168.0.235 [host down, received no-response]
+Nmap scan report for 192.168.0.236 [host down, received no-response]
+Nmap scan report for 192.168.0.237 [host down, received no-response]
+Nmap scan report for 192.168.0.238 [host down, received no-response]
+Nmap scan report for 192.168.0.239 [host down, received no-response]
+Nmap scan report for 192.168.0.240 [host down, received no-response]
+Nmap scan report for 192.168.0.241 [host down, received no-response]
+Nmap scan report for 192.168.0.242 [host down, received no-response]
+Nmap scan report for 192.168.0.243 [host down, received no-response]
+Nmap scan report for 192.168.0.244 [host down, received no-response]
+Nmap scan report for 192.168.0.245 [host down, received no-response]
+Nmap scan report for 192.168.0.246 [host down, received no-response]
+Nmap scan report for 192.168.0.247 [host down, received no-response]
+Nmap scan report for 192.168.0.248 [host down, received no-response]
+Nmap scan report for 192.168.0.249 [host down, received no-response]
+Nmap scan report for 192.168.0.250 [host down, received no-response]
+Nmap scan report for 192.168.0.251 [host down, received no-response]
+Nmap scan report for 192.168.0.252 [host down, received no-response]
+Nmap scan report for 192.168.0.253 [host down, received no-response]
+Nmap scan report for 192.168.0.254 [host down, received no-response]
+Nmap scan report for 192.168.0.255 [host down, received net-unreach]
+Nmap scan report for 192.168.0.11
+Host is up, received conn-refused (0.00036s latency).
+Scanned at 2017-08-10 07:57:07 BST for 22s
+Not shown: 999 closed ports
+Reason: 999 conn-refused
+PORT   STATE SERVICE REASON
+22/tcp open  ssh     syn-ack
+
+Nmap scan report for 192.168.0.12
+Host is up, received syn-ack (0.00039s latency).
+Scanned at 2017-08-10 07:57:07 BST for 22s
+Not shown: 998 closed ports
+Reason: 998 conn-refused
+PORT   STATE SERVICE REASON
+22/tcp open  ssh     syn-ack
+80/tcp open  http    syn-ack
+
+Nmap scan report for 192.168.0.14
+Host is up, received syn-ack (0.00038s latency).
+Scanned at 2017-08-10 07:57:07 BST for 22s
+Not shown: 998 closed ports
+Reason: 998 conn-refused
+PORT   STATE SERVICE REASON
+22/tcp open  ssh     syn-ack
+80/tcp open  http    syn-ack
+
+Nmap scan report for 192.168.0.15
+Host is up, received syn-ack (0.00040s latency).
+Scanned at 2017-08-10 07:57:07 BST for 22s
+Not shown: 998 closed ports
+Reason: 998 conn-refused
+PORT   STATE SERVICE REASON
+22/tcp open  ssh     syn-ack
+80/tcp open  http    syn-ack
+
+Nmap scan report for 192.168.0.16
+Host is up, received conn-refused (0.00014s latency).
+Scanned at 2017-08-10 07:57:07 BST for 22s
+Not shown: 999 closed ports
+Reason: 999 conn-refused
+PORT   STATE SERVICE REASON
+22/tcp open  ssh     syn-ack
+
+Nmap scan report for 192.168.0.21
+Host is up, received syn-ack (0.00049s latency).
+Scanned at 2017-08-10 07:57:07 BST for 37s
+Not shown: 992 closed ports
+Reason: 992 conn-refused
+PORT      STATE SERVICE     REASON
+22/tcp    open  ssh         syn-ack
+25/tcp    open  smtp        syn-ack
+80/tcp    open  http        syn-ack
+111/tcp   open  rpcbind     syn-ack
+113/tcp   open  ident       syn-ack
+139/tcp   open  netbios-ssn syn-ack
+2049/tcp  open  nfs         syn-ack
+32782/tcp open  unknown     syn-ack
+
+Nmap scan report for 192.168.0.22
+Host is up, received conn-refused (0.000055s latency).
+Scanned at 2017-08-10 07:57:07 BST for 22s
+Not shown: 996 closed ports
+Reason: 996 conn-refused
+PORT     STATE SERVICE    REASON
+22/tcp   open  ssh        syn-ack
+3128/tcp open  squid-http syn-ack
+3306/tcp open  mysql      syn-ack
+5432/tcp open  postgresql syn-ack
+
+Nmap scan report for 192.168.0.33
+Host is up, received syn-ack (0.00037s latency).
+Scanned at 2017-08-10 07:57:07 BST for 37s
+Not shown: 979 closed ports
+Reason: 979 conn-refused
+PORT     STATE SERVICE          REASON
+53/tcp   open  domain           syn-ack
+80/tcp   open  http             syn-ack
+88/tcp   open  kerberos-sec     syn-ack
+135/tcp  open  msrpc            syn-ack
+139/tcp  open  netbios-ssn      syn-ack
+389/tcp  open  ldap             syn-ack
+443/tcp  open  https            syn-ack
+445/tcp  open  microsoft-ds     syn-ack
+464/tcp  open  kpasswd5         syn-ack
+593/tcp  open  http-rpc-epmap   syn-ack
+636/tcp  open  ldapssl          syn-ack
+1025/tcp open  NFS-or-IIS       syn-ack
+1026/tcp open  LSA-or-nterm     syn-ack
+1028/tcp open  unknown          syn-ack
+1723/tcp open  pptp             syn-ack
+3001/tcp open  nessus           syn-ack
+3005/tcp open  deslogin         syn-ack
+3013/tcp open  gilatskysurfer   syn-ack
+3268/tcp open  globalcatLDAP    syn-ack
+3269/tcp open  globalcatLDAPssl syn-ack
+3389/tcp open  ms-wbt-server    syn-ack
+
+Host script results:
+| smb-enum-shares: 
+|   account_used: <blank>
+|   ADMIN$: 
+|     warning: Couldn't get details for share: NT_STATUS_WERR_ACCESS_DENIED (srvsvc.netsharegetinfo)
+|     Anonymous access: <none>
+|   C$: 
+|     warning: Couldn't get details for share: NT_STATUS_WERR_ACCESS_DENIED (srvsvc.netsharegetinfo)
+|     Anonymous access: <none>
+|   E$: 
+|     warning: Couldn't get details for share: NT_STATUS_WERR_ACCESS_DENIED (srvsvc.netsharegetinfo)
+|     Anonymous access: <none>
+|   IPC$: 
+|     warning: Couldn't get details for share: NT_STATUS_WERR_ACCESS_DENIED (srvsvc.netsharegetinfo)
+|     Anonymous access: READ
+|   NETLOGON: 
+|     warning: Couldn't get details for share: NT_STATUS_WERR_ACCESS_DENIED (srvsvc.netsharegetinfo)
+|     Anonymous access: <none>
+|   SYSVOL: 
+|     warning: Couldn't get details for share: NT_STATUS_WERR_ACCESS_DENIED (srvsvc.netsharegetinfo)
+|_    Anonymous access: <none>
+
+Read data files from: /usr/bin/../share/nmap
+# Nmap done at Thu Aug 10 07:57:44 2017 -- 256 IP addresses (8 hosts up) scanned in 37.38 seconds

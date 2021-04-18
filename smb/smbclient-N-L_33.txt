@@ -1,0 +1,25 @@
+user_1913614@pentest3:~$ smbclient -N -L=192.168.0.33
+
+Anonymous login successful
+Domain=[PENTESTINGLAB] OS=[Windows Server 2003 3790] Server=[Windows Server 2003 5.2]
+
+        Sharename       Type      Comment
+        ---------       ----      -------
+        E$              Disk      Default share
+        IPC$            IPC       Remote IPC
+        NETLOGON        Disk      Logon server share 
+        ADMIN$          Disk      Remote Admin
+        SYSVOL          Disk      Logon server share 
+        C$              Disk      Default share
+        
+Anonymous login successful
+Domain=[PENTESTINGLAB] OS=[Windows Server 2003 3790] Server=[Windows Server 2003 5.2]
+
+        Server               Comment
+        ---------            -------
+        TOM2003              
+
+        Workgroup            Master
+        ---------            -------
+        PENTESTINGLAB        TOM2003
+ 

@@ -1,0 +1,233 @@
+# Nmap 7.01 scan initiated Thu Aug 10 03:39:11 2017 as: nmap -A -oA nmap-oA_24 192.168.0.0/24
+Nmap scan report for 192.168.0.11
+Host is up (0.00041s latency).
+Not shown: 999 closed ports
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     OpenSSH 4.2 (protocol 1.99)
+| ssh-hostkey: 
+|   2048 83:3c:f3:02:83:1c:32:78:f4:71:60:b2:a1:f1:55:64 (RSA1)
+|   2048 56:6a:a4:52:e4:6b:d5:26:d9:13:dd:35:14:3f:57:23 (DSA)
+|_  2048 8c:68:ef:d5:df:fa:18:c9:a5:12:11:e2:f2:22:a3:09 (RSA)
+|_sshv1: Server supports SSHv1
+
+Nmap scan report for 192.168.0.12
+Host is up (0.00043s latency).
+Not shown: 998 closed ports
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     OpenSSH 5.3p1 Debian 3ubuntu7 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   1024 8e:88:57:20:17:86:59:61:bc:0e:72:98:b8:fc:0a:77 (DSA)
+|_  2048 a7:4c:ff:6e:1e:87:58:8f:07:8e:aa:49:fc:bc:a9:28 (RSA)
+80/tcp open  http    Apache httpd 2.2.14 ((Ubuntu))
+|_http-server-header: Apache/2.2.14 (Ubuntu)
+|_http-title: Site doesn't have a title (text/html).
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Nmap scan report for 192.168.0.14
+Host is up (0.00040s latency).
+Not shown: 998 closed ports
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     OpenSSH 5.3p1 Debian 3ubuntu7 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   1024 8e:88:57:20:17:86:59:61:bc:0e:72:98:b8:fc:0a:77 (DSA)
+|_  2048 a7:4c:ff:6e:1e:87:58:8f:07:8e:aa:49:fc:bc:a9:28 (RSA)
+80/tcp open  http    Apache httpd 2.2.14 ((Ubuntu))
+|_http-server-header: Apache/2.2.14 (Ubuntu)
+|_http-title: Site doesn't have a title (text/html).
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Nmap scan report for 192.168.0.15
+Host is up (0.00015s latency).
+Not shown: 998 closed ports
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     OpenSSH 5.3p1 Debian 3ubuntu7 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   1024 8e:88:57:20:17:86:59:61:bc:0e:72:98:b8:fc:0a:77 (DSA)
+|_  2048 a7:4c:ff:6e:1e:87:58:8f:07:8e:aa:49:fc:bc:a9:28 (RSA)
+80/tcp open  http    Apache httpd 2.2.14 ((Ubuntu))
+|_http-server-header: Apache/2.2.14 (Ubuntu)
+|_http-title: Site doesn't have a title (text/html).
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Nmap scan report for 192.168.0.16
+Host is up (0.00013s latency).
+Not shown: 999 closed ports
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     OpenSSH 6.7p1 Debian 5+deb8u3 (protocol 2.0)
+| ssh-hostkey: 
+|   1024 8b:be:a9:2a:2c:4d:48:51:ec:7b:b6:9e:6b:86:8a:54 (DSA)
+|   2048 93:a9:95:0a:90:56:9d:2e:a1:e4:f1:15:63:63:5e:59 (RSA)
+|_  256 d9:4d:67:37:f7:19:45:98:bb:2c:78:5b:98:67:b6:61 (ECDSA)
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Nmap scan report for 192.168.0.21
+Host is up (0.00044s latency).
+Not shown: 992 closed ports
+PORT      STATE SERVICE      VERSION
+22/tcp    open  ssh          OpenSSH 3.8.1p1 Debian 8.sarge.4 (protocol 2.0)
+|_auth-owners: root
+| ssh-hostkey: 
+|   1024 88:ea:d0:3e:0a:05:56:3c:68:7f:b0:7e:43:9e:57:b5 (DSA)
+|_  1024 40:cc:1b:f4:40:94:91:49:bc:31:e2:ea:6a:61:42:78 (RSA)
+25/tcp    open  smtp?
+|_auth-owners: root
+|_smtp-commands: Couldn't establish connection on port 25
+80/tcp    open  http         Apache httpd 1.3.33 ((Debian GNU/Linux))
+|_auth-owners: www-data
+| http-methods: 
+|_  Potentially risky methods: TRACE
+| http-robots.txt: 1 disallowed entry 
+|_/
+|_http-server-header: Apache/1.3.33 (Debian GNU/Linux)
+|_http-title: Index Page for the Hack me Debian
+111/tcp   open  rpcbind      2 (RPC #100000)
+|_auth-owners: daemon
+| rpcinfo: 
+|   program version   port/proto  service
+|   100000  2            111/tcp  rpcbind
+|   100000  2            111/udp  rpcbind
+|   100003  2,3         2049/tcp  nfs
+|   100003  2,3         2049/udp  nfs
+|   100005  1,2,3        608/udp  mountd
+|   100005  1,2,3        611/tcp  mountd
+|   100021  1,3,4      32772/udp  nlockmgr
+|   100021  1,3,4      32782/tcp  nlockmgr
+|   100024  1            718/udp  status
+|_  100024  1            721/tcp  status
+113/tcp   open  ident
+|_auth-owners: identd
+139/tcp   open  netbios-ssn?
+|_auth-owners: root
+2049/tcp  open  nfs          2-3 (RPC #100003)
+|_auth-owners: root
+| rpcinfo: 
+|   program version   port/proto  service
+|   100000  2            111/tcp  rpcbind
+|   100000  2            111/udp  rpcbind
+|   100003  2,3         2049/tcp  nfs
+|   100003  2,3         2049/udp  nfs
+|   100005  1,2,3        608/udp  mountd
+|   100005  1,2,3        611/tcp  mountd
+|   100021  1,3,4      32772/udp  nlockmgr
+|   100021  1,3,4      32782/tcp  nlockmgr
+|   100024  1            718/udp  status
+|_  100024  1            721/tcp  status
+32782/tcp open  nlockmgr     1-4 (RPC #100021)
+|_auth-owners: root
+| rpcinfo: 
+|   program version   port/proto  service
+|   100000  2            111/tcp  rpcbind
+|   100000  2            111/udp  rpcbind
+|   100003  2,3         2049/tcp  nfs
+|   100003  2,3         2049/udp  nfs
+|   100005  1,2,3        608/udp  mountd
+|   100005  1,2,3        611/tcp  mountd
+|   100021  1,3,4      32772/udp  nlockmgr
+|   100021  1,3,4      32782/tcp  nlockmgr
+|   100024  1            718/udp  status
+|_  100024  1            721/tcp  status
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Nmap scan report for 192.168.0.22
+Host is up (0.00011s latency).
+Not shown: 996 closed ports
+PORT     STATE SERVICE    VERSION
+22/tcp   open  ssh        OpenSSH 2.2.0p1 (protocol 1.99)
+| ssh-hostkey: 
+|   1024 88:c2:07:68:3e:30:96:ed:b4:8d:d3:af:c9:df:1a:cc (RSA1)
+|_  1024 bb:4e:be:e0:39:a6:14:9e:43:78:18:21:88:bb:50:de (DSA)
+|_sshv1: Server supports SSHv1
+3128/tcp open  http-proxy Squid http proxy 2.5.STABLE12
+|_http-server-header: squid/2.5.STABLE12
+|_http-title: ERROR: The requested URL could not be retrieved
+3306/tcp open  mysql      MySQL 5.0.18
+| mysql-info: 
+|   Protocol: 53
+|   Version: .0.18
+|   Thread ID: 12
+|   Capabilities flags: 41516
+|   Some Capabilities: Support41Auth, SupportsCompression, SupportsTransactions, Speaks41ProtocolNew, LongColumnFlag, ConnectWithDatabase
+|   Status: Autocommit
+|_  Salt: ^G)6sbq1?)N0B<F*=4//
+5432/tcp open  postgresql PostgreSQL DB
+
+Nmap scan report for 192.168.0.33
+Host is up (0.00042s latency).
+Not shown: 979 closed ports
+PORT     STATE SERVICE       VERSION
+53/tcp   open  domain        Microsoft DNS
+80/tcp   open  http          Microsoft IIS httpd 6.0
+| http-methods: 
+|_  Potentially risky methods: TRACE DELETE COPY MOVE PROPFIND PROPPATCH SEARCH MKCOL LOCK UNLOCK PUT
+|_http-server-header: Microsoft-IIS/6.0
+|_http-title: Site doesn't have a title (text/html).
+|_http-webdav-scan: ERROR: Script execution failed (use -d to debug)
+88/tcp   open  kerberos-sec  Windows 2003 Kerberos (server time: 2021-04-12 15:28:47Z)
+135/tcp  open  msrpc         Microsoft Windows RPC
+139/tcp  open  netbios-ssn   Microsoft Windows 98 netbios-ssn
+389/tcp  open  ldap
+443/tcp  open  ssl/http      Microsoft IIS httpd 6.0
+| http-methods: 
+|_  Potentially risky methods: TRACE DELETE COPY MOVE PROPFIND PROPPATCH SEARCH MKCOL LOCK UNLOCK PUT
+|_http-server-header: Microsoft-IIS/6.0
+|_http-title: Site doesn't have a title (text/html).
+|_http-webdav-scan: ERROR: Script execution failed (use -d to debug)
+| ssl-cert: Subject: commonName=TOM2003
+| Not valid before: 2006-09-04T18:33:25
+|_Not valid after:  2006-09-11T18:33:25
+|_ssl-date: 2021-04-12T15:31:11+00:00; +3y245d12h49m08s from scanner time.
+| sslv2: 
+|   SSLv2 supported
+|   ciphers: 
+|     SSL2_RC4_128_WITH_MD5
+|     SSL2_DES_192_EDE3_CBC_WITH_MD5
+|     SSL2_RC2_CBC_128_CBC_WITH_MD5
+|     SSL2_DES_64_CBC_WITH_MD5
+|     SSL2_RC4_128_EXPORT40_WITH_MD5
+|_    SSL2_RC2_CBC_128_CBC_WITH_MD5
+445/tcp  open  microsoft-ds  Microsoft Windows 2003 or 2008 microsoft-ds
+464/tcp  open  kpasswd5?
+593/tcp  open  ncacn_http    Microsoft Windows RPC over HTTP 1.0
+636/tcp  open  tcpwrapped
+1025/tcp open  msrpc         Microsoft Windows RPC
+1026/tcp open  msrpc         Microsoft Windows RPC
+1028/tcp open  ncacn_http    Microsoft Windows RPC over HTTP 1.0
+1723/tcp open  pptp          Microsoft (Firmware: 3790)
+3001/tcp open  msrpc         Microsoft Windows RPC
+3005/tcp open  msrpc         Microsoft Windows RPC
+3013/tcp open  msrpc         Microsoft Windows RPC
+3268/tcp open  ldap
+3269/tcp open  tcpwrapped
+3389/tcp open  ms-wbt-server Microsoft Terminal Service
+Service Info: OSs: Windows, Windows 98; CPE: cpe:/o:microsoft:windows, cpe:/o:microsoft:windows_server_2003, cpe:/o:microsoft:windows_98
+
+Host script results:
+|_nbstat: NetBIOS name: TOM2003, NetBIOS user: <unknown>, NetBIOS MAC: 00:50:56:84:9b:c6 (VMware)
+| smb-os-discovery: 
+|   OS: Windows Server 2003 3790 (Windows Server 2003 5.2)
+|   OS CPE: cpe:/o:microsoft:windows_server_2003::-
+|   Computer name: tom2003
+|   NetBIOS computer name: TOM2003
+|   Domain name: PenTestingLab.local
+|   Forest name: PenTestingLab.local
+|   FQDN: tom2003.PenTestingLab.local
+|_  System time: 2021-04-12T16:31:10+01:00
+| smb-security-mode: 
+|   account_used: <blank>
+|   authentication_level: user
+|   challenge_response: supported
+|_  message_signing: required
+|_smbv2-enabled: Server doesn't support SMBv2 protocol
+
+Post-scan script results:
+| ssh-hostkey: Possible duplicate hosts
+| Key 1024 8e:88:57:20:17:86:59:61:bc:0e:72:98:b8:fc:0a:77 (DSA) used by:
+|   192.168.0.12
+|   192.168.0.14
+|   192.168.0.15
+| Key 2048 a7:4c:ff:6e:1e:87:58:8f:07:8e:aa:49:fc:bc:a9:28 (RSA) used by:
+|   192.168.0.12
+|   192.168.0.14
+|_  192.168.0.15
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Thu Aug 10 03:42:33 2017 -- 256 IP addresses (8 hosts up) scanned in 201.44 seconds

@@ -1,0 +1,83 @@
+# Nmap 7.01 scan initiated Thu Aug 10 03:44:39 2017 as: nmap -A -p22 -oA nmap-oA-p22_24 192.168.0.0/24
+Nmap scan report for 192.168.0.11
+Host is up (0.00017s latency).
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     OpenSSH 4.2 (protocol 1.99)
+| ssh-hostkey: 
+|   2048 83:3c:f3:02:83:1c:32:78:f4:71:60:b2:a1:f1:55:64 (RSA1)
+|   2048 56:6a:a4:52:e4:6b:d5:26:d9:13:dd:35:14:3f:57:23 (DSA)
+|_  2048 8c:68:ef:d5:df:fa:18:c9:a5:12:11:e2:f2:22:a3:09 (RSA)
+|_sshv1: Server supports SSHv1
+
+Nmap scan report for 192.168.0.12
+Host is up (0.00019s latency).
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     OpenSSH 5.3p1 Debian 3ubuntu7 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   1024 8e:88:57:20:17:86:59:61:bc:0e:72:98:b8:fc:0a:77 (DSA)
+|_  2048 a7:4c:ff:6e:1e:87:58:8f:07:8e:aa:49:fc:bc:a9:28 (RSA)
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Nmap scan report for 192.168.0.14
+Host is up (0.00020s latency).
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     OpenSSH 5.3p1 Debian 3ubuntu7 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   1024 8e:88:57:20:17:86:59:61:bc:0e:72:98:b8:fc:0a:77 (DSA)
+|_  2048 a7:4c:ff:6e:1e:87:58:8f:07:8e:aa:49:fc:bc:a9:28 (RSA)
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Nmap scan report for 192.168.0.15
+Host is up (0.00022s latency).
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     OpenSSH 5.3p1 Debian 3ubuntu7 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   1024 8e:88:57:20:17:86:59:61:bc:0e:72:98:b8:fc:0a:77 (DSA)
+|_  2048 a7:4c:ff:6e:1e:87:58:8f:07:8e:aa:49:fc:bc:a9:28 (RSA)
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Nmap scan report for 192.168.0.16
+Host is up (0.00015s latency).
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     OpenSSH 6.7p1 Debian 5+deb8u3 (protocol 2.0)
+| ssh-hostkey: 
+|   1024 8b:be:a9:2a:2c:4d:48:51:ec:7b:b6:9e:6b:86:8a:54 (DSA)
+|   2048 93:a9:95:0a:90:56:9d:2e:a1:e4:f1:15:63:63:5e:59 (RSA)
+|_  256 d9:4d:67:37:f7:19:45:98:bb:2c:78:5b:98:67:b6:61 (ECDSA)
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Nmap scan report for 192.168.0.21
+Host is up (0.00075s latency).
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     OpenSSH 3.8.1p1 Debian 8.sarge.4 (protocol 2.0)
+| ssh-hostkey: 
+|   1024 88:ea:d0:3e:0a:05:56:3c:68:7f:b0:7e:43:9e:57:b5 (DSA)
+|_  1024 40:cc:1b:f4:40:94:91:49:bc:31:e2:ea:6a:61:42:78 (RSA)
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Nmap scan report for 192.168.0.22
+Host is up (0.000093s latency).
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     OpenSSH 2.2.0p1 (protocol 1.99)
+| ssh-hostkey: 
+|   1024 88:c2:07:68:3e:30:96:ed:b4:8d:d3:af:c9:df:1a:cc (RSA1)
+|_  1024 bb:4e:be:e0:39:a6:14:9e:43:78:18:21:88:bb:50:de (DSA)
+|_sshv1: Server supports SSHv1
+
+Nmap scan report for 192.168.0.33
+Host is up (0.00048s latency).
+PORT   STATE  SERVICE VERSION
+22/tcp closed ssh
+
+Post-scan script results:
+| ssh-hostkey: Possible duplicate hosts
+| Key 2048 a7:4c:ff:6e:1e:87:58:8f:07:8e:aa:49:fc:bc:a9:28 (RSA) used by:
+|   192.168.0.12
+|   192.168.0.14
+|   192.168.0.15
+| Key 1024 8e:88:57:20:17:86:59:61:bc:0e:72:98:b8:fc:0a:77 (DSA) used by:
+|   192.168.0.12
+|   192.168.0.14
+|_  192.168.0.15
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Thu Aug 10 03:44:56 2017 -- 256 IP addresses (8 hosts up) scanned in 17.65 seconds

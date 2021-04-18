@@ -1,0 +1,639 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.01 scan initiated Thu Aug 10 03:39:11 2017 as: nmap -A -oA nmap-oA_24 192.168.0.0/24 -->
+<nmaprun scanner="nmap" args="nmap -A -oA nmap-oA_24 192.168.0.0/24" start="1502332751" startstr="Thu Aug 10 03:39:11 2017" version="7.01" xmloutputversion="1.04">
+<scaninfo type="connect" protocol="tcp" numservices="1000" services="1,3-4,6-7,9,13,17,19-26,30,32-33,37,42-43,49,53,70,79-85,88-90,99-100,106,109-111,113,119,125,135,139,143-144,146,161,163,179,199,211-212,222,254-256,259,264,280,301,306,311,340,366,389,406-407,416-417,425,427,443-445,458,464-465,481,497,500,512-515,524,541,543-545,548,554-555,563,587,593,616-617,625,631,636,646,648,666-668,683,687,691,700,705,711,714,720,722,726,749,765,777,783,787,800-801,808,843,873,880,888,898,900-903,911-912,981,987,990,992-993,995,999-1002,1007,1009-1011,1021-1100,1102,1104-1108,1110-1114,1117,1119,1121-1124,1126,1130-1132,1137-1138,1141,1145,1147-1149,1151-1152,1154,1163-1166,1169,1174-1175,1183,1185-1187,1192,1198-1199,1201,1213,1216-1218,1233-1234,1236,1244,1247-1248,1259,1271-1272,1277,1287,1296,1300-1301,1309-1311,1322,1328,1334,1352,1417,1433-1434,1443,1455,1461,1494,1500-1501,1503,1521,1524,1533,1556,1580,1583,1594,1600,1641,1658,1666,1687-1688,1700,1717-1721,1723,1755,1761,1782-1783,1801,1805,1812,1839-1840,1862-1864,1875,1900,1914,1935,1947,1971-1972,1974,1984,1998-2010,2013,2020-2022,2030,2033-2035,2038,2040-2043,2045-2049,2065,2068,2099-2100,2103,2105-2107,2111,2119,2121,2126,2135,2144,2160-2161,2170,2179,2190-2191,2196,2200,2222,2251,2260,2288,2301,2323,2366,2381-2383,2393-2394,2399,2401,2492,2500,2522,2525,2557,2601-2602,2604-2605,2607-2608,2638,2701-2702,2710,2717-2718,2725,2800,2809,2811,2869,2875,2909-2910,2920,2967-2968,2998,3000-3001,3003,3005-3007,3011,3013,3017,3030-3031,3052,3071,3077,3128,3168,3211,3221,3260-3261,3268-3269,3283,3300-3301,3306,3322-3325,3333,3351,3367,3369-3372,3389-3390,3404,3476,3493,3517,3527,3546,3551,3580,3659,3689-3690,3703,3737,3766,3784,3800-3801,3809,3814,3826-3828,3851,3869,3871,3878,3880,3889,3905,3914,3918,3920,3945,3971,3986,3995,3998,4000-4006,4045,4111,4125-4126,4129,4224,4242,4279,4321,4343,4443-4446,4449,4550,4567,4662,4848,4899-4900,4998,5000-5004,5009,5030,5033,5050-5051,5054,5060-5061,5080,5087,5100-5102,5120,5190,5200,5214,5221-5222,5225-5226,5269,5280,5298,5357,5405,5414,5431-5432,5440,5500,5510,5544,5550,5555,5560,5566,5631,5633,5666,5678-5679,5718,5730,5800-5802,5810-5811,5815,5822,5825,5850,5859,5862,5877,5900-5904,5906-5907,5910-5911,5915,5922,5925,5950,5952,5959-5963,5987-5989,5998-6007,6009,6025,6059,6100-6101,6106,6112,6123,6129,6156,6346,6389,6502,6510,6543,6547,6565-6567,6580,6646,6666-6669,6689,6692,6699,6779,6788-6789,6792,6839,6881,6901,6969,7000-7002,7004,7007,7019,7025,7070,7100,7103,7106,7200-7201,7402,7435,7443,7496,7512,7625,7627,7676,7741,7777-7778,7800,7911,7920-7921,7937-7938,7999-8002,8007-8011,8021-8022,8031,8042,8045,8080-8090,8093,8099-8100,8180-8181,8192-8194,8200,8222,8254,8290-8292,8300,8333,8383,8400,8402,8443,8500,8600,8649,8651-8652,8654,8701,8800,8873,8888,8899,8994,9000-9003,9009-9011,9040,9050,9071,9080-9081,9090-9091,9099-9103,9110-9111,9200,9207,9220,9290,9415,9418,9485,9500,9502-9503,9535,9575,9593-9595,9618,9666,9876-9878,9898,9900,9917,9929,9943-9944,9968,9998-10004,10009-10010,10012,10024-10025,10082,10180,10215,10243,10566,10616-10617,10621,10626,10628-10629,10778,11110-11111,11967,12000,12174,12265,12345,13456,13722,13782-13783,14000,14238,14441-14442,15000,15002-15004,15660,15742,16000-16001,16012,16016,16018,16080,16113,16992-16993,17877,17988,18040,18101,18988,19101,19283,19315,19350,19780,19801,19842,20000,20005,20031,20221-20222,20828,21571,22939,23502,24444,24800,25734-25735,26214,27000,27352-27353,27355-27356,27715,28201,30000,30718,30951,31038,31337,32768-32785,33354,33899,34571-34573,35500,38292,40193,40911,41511,42510,44176,44442-44443,44501,45100,48080,49152-49161,49163,49165,49167,49175-49176,49400,49999-50003,50006,50300,50389,50500,50636,50800,51103,51493,52673,52822,52848,52869,54045,54328,55055-55056,55555,55600,56737-56738,57294,57797,58080,60020,60443,61532,61900,62078,63331,64623,64680,65000,65129,65389"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<host starttime="1502332752" endtime="1502332953"><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="192.168.0.11" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="closed" count="999">
+<extrareasons reason="conn-refused" count="999"/>
+</extraports>
+<port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ssh" product="OpenSSH" version="4.2" extrainfo="protocol 1.99" method="probed" conf="10"><cpe>cpe:/a:openbsd:openssh:4.2</cpe></service><script id="ssh-hostkey" output="&#xa;  2048 83:3c:f3:02:83:1c:32:78:f4:71:60:b2:a1:f1:55:64 (RSA1)&#xa;  2048 56:6a:a4:52:e4:6b:d5:26:d9:13:dd:35:14:3f:57:23 (DSA)&#xa;  2048 8c:68:ef:d5:df:fa:18:c9:a5:12:11:e2:f2:22:a3:09 (RSA)"><table>
+<elem key="bits">2048</elem>
+<elem key="type">rsa1</elem>
+<elem key="fingerprint">833cf302831c3278f47160b2a1f15564</elem>
+<elem key="key">35 21348025717124725832257633450790568497830339655195312529228045321662444783085411823763771232272162861024461008864497218041887051682746523043996954085972911654495432902563109130311686545619937192227624389060105987052689773607320618049189808048074380528838719558904772724002915042820500804750914060175921772983498493840294394067082345278425568676819231636437258551631941140301797793503260504367383817404488072921762075396891033391092062073763152582737103992346257181523734958395630339063596156548278778163731292567487840293452101359002689730399180155083488392891250506033567497119928969202641212697369813668244760969219</elem>
+</table>
+<table>
+<elem key="bits">2048</elem>
+<elem key="type">ssh-dss</elem>
+<elem key="fingerprint">566aa452e46bd526d913dd35143f5723</elem>
+<elem key="key">AAAAB3NzaC1kc3MAAAEBANMgd9CzFdRV4k482Qh0D5m9e40DUfUicts7hJAiV8nqLMmK194098R+BiTlDYKfS24xlqqqgDHIqQJXtanROxBTfr0uyE/GO675IEbrC+MIeEwxYVtXwqturV9N1pw+XG/2Be4QJmMRK64hdNDDTOQ7NVB3JczAyJPomqcP+c/5PSbyc1f5oLqdUfx1s9dGDFvffO6bvJgBjZzmL7hWqwZm0ssCzHxK376rtKsNcX5tm1BZoPeVJEez5Z/DXdi1+fJE/U3mYQypoqHoArSGI2QigTezMsL+f6v4phwU0RtQbATKhpup58U48473auSY7GGI5ltsXQfQ2N3xAVUs3H0AAAAVALqrGnbPYM0BK4H8N4DIqVlh8VC5AAABAF7pbWUBBC+4n8NbDHCjw2yovPFn1OiklZ2AeLcQU63BydmCl22CtzSdXpKZoCEg9sGZX+e1FWlf4dIx30/KSgVsofcu++Uyszx1aXd/n2OmtDzNKUs2Oyxja9IBOj7A/JdMbfHUOdSycpBpqkA7Su5jTZxV0biuans4kL5oLA+o17sVKbs4AqWUJugyWwY/uJqC7F8PSF3EPaqItzRkSHp5XVFj+ZifrPmSFgI7ueoJUDGXUHBsF+XuQNxMdlQbUbtFCcCFTOGLHvWbVTJTecw0rOxDZ+JHdn5A0yRDGQ2dYJFBDgYA3vBNYqO66gwWtSEcqLNfYHyCaRnjG1Ev1sYAAAEAfEINwGyhqzYZXPIzkAA7jAA2nw1ly9BHtAs1poAauLMcgf47J531E1FSAHUeiGVjJ4EriDYDnzjac6yBFVFwQD6nNl4qJFMLXEd0f3qiCRbLPTqAY8umbDYT7DjhlT5alyDxLZ3P9SRJh7thCnREK90zdr8vGuiZjfYo8t8HM0OWRVm8mRdR+VAZAygfP+Y/DwviZcAH6rTsnLUCTgLNiqU0fXRwnX0CqNlVxPdNFAqFPM5YSxAhjxXDm5ENN8NMk6ohpUtVnjutjHgH+9MV5QH1Bna/J7hSmJlrsuXez2O36+oyEZ1TVwgM7uWt/SL3aGM8S52z8Fu7/wKlRJSQOw==</elem>
+</table>
+<table>
+<elem key="bits">2048</elem>
+<elem key="type">ssh-rsa</elem>
+<elem key="fingerprint">8c68efd5dffa18c9a51211e2f222a309</elem>
+<elem key="key">AAAAB3NzaC1yc2EAAAABIwAAAQEAnS8/D7fnyEG2Ewta9PlQbC6ayWq+Yruz/ZqQoj+8R/car9YsVLy/nVzmlBGyJo1CICfgH68ry3yT5XL8lCV2RmxJnowSvNh5vszADLT4I6s2xr1yrn4bo/UnbyU46wADdfXcYJ4zXkUuy9cHwaqRpZFIysKUhO5GAZDqLDbDyFsoQTXMv45GTAOSJQ11FwauNfRS0HlSsnurKoKdKQ3nTZezsB2IqIlbO8THbxlM0mIE9jIzAYUdIIJngTn9CuYTNqvvqC4P74ILEp1dJrq7pkc6J3DLYAh6mTK1B2pzqtwZy6WJpTfTVwWrYHk5nQqg99/IXv1NqeEQtcIyKo7f4Q==</elem>
+</table>
+</script><script id="sshv1" output="Server supports SSHv1">true</script></port>
+</ports>
+<times srtt="407" rttvar="214" to="100000"/>
+</host>
+<host starttime="1502332752" endtime="1502332953"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="192.168.0.12" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="closed" count="998">
+<extrareasons reason="conn-refused" count="998"/>
+</extraports>
+<port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ssh" product="OpenSSH" version="5.3p1 Debian 3ubuntu7" extrainfo="Ubuntu Linux; protocol 2.0" ostype="Linux" method="probed" conf="10"><cpe>cpe:/a:openbsd:openssh:5.3p1</cpe><cpe>cpe:/o:linux:linux_kernel</cpe></service><script id="ssh-hostkey" output="&#xa;  1024 8e:88:57:20:17:86:59:61:bc:0e:72:98:b8:fc:0a:77 (DSA)&#xa;  2048 a7:4c:ff:6e:1e:87:58:8f:07:8e:aa:49:fc:bc:a9:28 (RSA)"><table>
+<elem key="bits">1024</elem>
+<elem key="type">ssh-dss</elem>
+<elem key="fingerprint">8e88572017865961bc0e7298b8fc0a77</elem>
+<elem key="key">AAAAB3NzaC1kc3MAAACBAItK+1TKl8J2XOZs3PUXijw1tumh1TlSAw3rbvg/S/u90AMLwR6BjKBqpgCClRYGzGDSjb9Apm34XhqVAii3DdD7heJri3kFfQo4DfwI6quVZzmNBoDq5oMES0mRmyqYanc51vWN0/cF+McRCWU2xdKrvfIOJaYzPghh43wWxA8rAAAAFQC42IlmSdLXS4n8c4Dfa+8bxdV5hQAAAIB+R+5Q+RHfge142WZGd+mKMsk6CmP9nYGWM4z6boR9wOZXBxKoOzwN3RWWUeaHT+iwIkp5Am5CN2vnXNLTIsFN2uf02tSCHNSWpck6yxv1CrjLi/hcwYPVqpKMouHarZNqsWWlNhPvxT8gPspomcfNiIeuMFgWDDKIzKIZDYP5mAAAAIBMEhiVkqCYl7LHJBQdfaoa/CvY9qVD/eXgFYejGZZCDC4aR1gQRMO8Uj4tPkj6Es4J1+PLmqif8+/bvF3TP5E56I8R/ExHemb6QsT8FjYlHlrMnKzPebq435+C+pN2GVyKLHsFE80edBZPheIumu3BmwdNnpGYixx/3MRcRHs7cw==</elem>
+</table>
+<table>
+<elem key="bits">2048</elem>
+<elem key="type">ssh-rsa</elem>
+<elem key="fingerprint">a74cff6e1e87588f078eaa49fcbca928</elem>
+<elem key="key">AAAAB3NzaC1yc2EAAAABIwAAAQEA3T2A3Xn+/H8X/adOBw0vE+d+KRI1+WKex6Cq2o3QJwJjLef2SeSnWQsrhV4FN8FHby1e9YHHnx8czMM64CB5ZsL/2n8LC2YopFd9Xr65VGdajFauMBny9KdCDvxCp/dVaKw6CeZap60B52eZ3JkEko4T0itS5meJo7xM3wlifNEBvT1UfUNjeYo8olsJSzdykZhN+WRGlbOYB1/6QbgZuWn5wpwnmwpmFRnf0vKeoqBqL+fdMNPALrkkpFQ1V4B2gSfG/YgpfWcde5WPaGC8mCoSX47+j1FvxAg4JRiSA7camamEd/uYKfAfYR/f7GwvFSFngW3W8Lh4JmZhLMVt3Q==</elem>
+</table>
+</script></port>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" product="Apache httpd" version="2.2.14" extrainfo="(Ubuntu)" method="probed" conf="10"><cpe>cpe:/a:apache:http_server:2.2.14</cpe></service><script id="http-server-header" output="Apache/2.2.14 (Ubuntu)"><elem>Apache/2.2.14 (Ubuntu)</elem>
+</script><script id="http-title" output="Site doesn&apos;t have a title (text/html)."></script></port>
+</ports>
+<times srtt="427" rttvar="177" to="100000"/>
+</host>
+<host starttime="1502332752" endtime="1502332953"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="192.168.0.14" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="closed" count="998">
+<extrareasons reason="conn-refused" count="998"/>
+</extraports>
+<port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ssh" product="OpenSSH" version="5.3p1 Debian 3ubuntu7" extrainfo="Ubuntu Linux; protocol 2.0" ostype="Linux" method="probed" conf="10"><cpe>cpe:/a:openbsd:openssh:5.3p1</cpe><cpe>cpe:/o:linux:linux_kernel</cpe></service><script id="ssh-hostkey" output="&#xa;  1024 8e:88:57:20:17:86:59:61:bc:0e:72:98:b8:fc:0a:77 (DSA)&#xa;  2048 a7:4c:ff:6e:1e:87:58:8f:07:8e:aa:49:fc:bc:a9:28 (RSA)"><table>
+<elem key="bits">1024</elem>
+<elem key="type">ssh-dss</elem>
+<elem key="fingerprint">8e88572017865961bc0e7298b8fc0a77</elem>
+<elem key="key">AAAAB3NzaC1kc3MAAACBAItK+1TKl8J2XOZs3PUXijw1tumh1TlSAw3rbvg/S/u90AMLwR6BjKBqpgCClRYGzGDSjb9Apm34XhqVAii3DdD7heJri3kFfQo4DfwI6quVZzmNBoDq5oMES0mRmyqYanc51vWN0/cF+McRCWU2xdKrvfIOJaYzPghh43wWxA8rAAAAFQC42IlmSdLXS4n8c4Dfa+8bxdV5hQAAAIB+R+5Q+RHfge142WZGd+mKMsk6CmP9nYGWM4z6boR9wOZXBxKoOzwN3RWWUeaHT+iwIkp5Am5CN2vnXNLTIsFN2uf02tSCHNSWpck6yxv1CrjLi/hcwYPVqpKMouHarZNqsWWlNhPvxT8gPspomcfNiIeuMFgWDDKIzKIZDYP5mAAAAIBMEhiVkqCYl7LHJBQdfaoa/CvY9qVD/eXgFYejGZZCDC4aR1gQRMO8Uj4tPkj6Es4J1+PLmqif8+/bvF3TP5E56I8R/ExHemb6QsT8FjYlHlrMnKzPebq435+C+pN2GVyKLHsFE80edBZPheIumu3BmwdNnpGYixx/3MRcRHs7cw==</elem>
+</table>
+<table>
+<elem key="bits">2048</elem>
+<elem key="type">ssh-rsa</elem>
+<elem key="fingerprint">a74cff6e1e87588f078eaa49fcbca928</elem>
+<elem key="key">AAAAB3NzaC1yc2EAAAABIwAAAQEA3T2A3Xn+/H8X/adOBw0vE+d+KRI1+WKex6Cq2o3QJwJjLef2SeSnWQsrhV4FN8FHby1e9YHHnx8czMM64CB5ZsL/2n8LC2YopFd9Xr65VGdajFauMBny9KdCDvxCp/dVaKw6CeZap60B52eZ3JkEko4T0itS5meJo7xM3wlifNEBvT1UfUNjeYo8olsJSzdykZhN+WRGlbOYB1/6QbgZuWn5wpwnmwpmFRnf0vKeoqBqL+fdMNPALrkkpFQ1V4B2gSfG/YgpfWcde5WPaGC8mCoSX47+j1FvxAg4JRiSA7camamEd/uYKfAfYR/f7GwvFSFngW3W8Lh4JmZhLMVt3Q==</elem>
+</table>
+</script></port>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" product="Apache httpd" version="2.2.14" extrainfo="(Ubuntu)" method="probed" conf="10"><cpe>cpe:/a:apache:http_server:2.2.14</cpe></service><script id="http-server-header" output="Apache/2.2.14 (Ubuntu)"><elem>Apache/2.2.14 (Ubuntu)</elem>
+</script><script id="http-title" output="Site doesn&apos;t have a title (text/html)."></script></port>
+</ports>
+<times srtt="400" rttvar="148" to="100000"/>
+</host>
+<host starttime="1502332752" endtime="1502332953"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="192.168.0.15" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="closed" count="998">
+<extrareasons reason="conn-refused" count="998"/>
+</extraports>
+<port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ssh" product="OpenSSH" version="5.3p1 Debian 3ubuntu7" extrainfo="Ubuntu Linux; protocol 2.0" ostype="Linux" method="probed" conf="10"><cpe>cpe:/a:openbsd:openssh:5.3p1</cpe><cpe>cpe:/o:linux:linux_kernel</cpe></service><script id="ssh-hostkey" output="&#xa;  1024 8e:88:57:20:17:86:59:61:bc:0e:72:98:b8:fc:0a:77 (DSA)&#xa;  2048 a7:4c:ff:6e:1e:87:58:8f:07:8e:aa:49:fc:bc:a9:28 (RSA)"><table>
+<elem key="bits">1024</elem>
+<elem key="type">ssh-dss</elem>
+<elem key="fingerprint">8e88572017865961bc0e7298b8fc0a77</elem>
+<elem key="key">AAAAB3NzaC1kc3MAAACBAItK+1TKl8J2XOZs3PUXijw1tumh1TlSAw3rbvg/S/u90AMLwR6BjKBqpgCClRYGzGDSjb9Apm34XhqVAii3DdD7heJri3kFfQo4DfwI6quVZzmNBoDq5oMES0mRmyqYanc51vWN0/cF+McRCWU2xdKrvfIOJaYzPghh43wWxA8rAAAAFQC42IlmSdLXS4n8c4Dfa+8bxdV5hQAAAIB+R+5Q+RHfge142WZGd+mKMsk6CmP9nYGWM4z6boR9wOZXBxKoOzwN3RWWUeaHT+iwIkp5Am5CN2vnXNLTIsFN2uf02tSCHNSWpck6yxv1CrjLi/hcwYPVqpKMouHarZNqsWWlNhPvxT8gPspomcfNiIeuMFgWDDKIzKIZDYP5mAAAAIBMEhiVkqCYl7LHJBQdfaoa/CvY9qVD/eXgFYejGZZCDC4aR1gQRMO8Uj4tPkj6Es4J1+PLmqif8+/bvF3TP5E56I8R/ExHemb6QsT8FjYlHlrMnKzPebq435+C+pN2GVyKLHsFE80edBZPheIumu3BmwdNnpGYixx/3MRcRHs7cw==</elem>
+</table>
+<table>
+<elem key="bits">2048</elem>
+<elem key="type">ssh-rsa</elem>
+<elem key="fingerprint">a74cff6e1e87588f078eaa49fcbca928</elem>
+<elem key="key">AAAAB3NzaC1yc2EAAAABIwAAAQEA3T2A3Xn+/H8X/adOBw0vE+d+KRI1+WKex6Cq2o3QJwJjLef2SeSnWQsrhV4FN8FHby1e9YHHnx8czMM64CB5ZsL/2n8LC2YopFd9Xr65VGdajFauMBny9KdCDvxCp/dVaKw6CeZap60B52eZ3JkEko4T0itS5meJo7xM3wlifNEBvT1UfUNjeYo8olsJSzdykZhN+WRGlbOYB1/6QbgZuWn5wpwnmwpmFRnf0vKeoqBqL+fdMNPALrkkpFQ1V4B2gSfG/YgpfWcde5WPaGC8mCoSX47+j1FvxAg4JRiSA7camamEd/uYKfAfYR/f7GwvFSFngW3W8Lh4JmZhLMVt3Q==</elem>
+</table>
+</script></port>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" product="Apache httpd" version="2.2.14" extrainfo="(Ubuntu)" method="probed" conf="10"><cpe>cpe:/a:apache:http_server:2.2.14</cpe></service><script id="http-server-header" output="Apache/2.2.14 (Ubuntu)"><elem>Apache/2.2.14 (Ubuntu)</elem>
+</script><script id="http-title" output="Site doesn&apos;t have a title (text/html)."></script></port>
+</ports>
+<times srtt="152" rttvar="103" to="100000"/>
+</host>
+<host starttime="1502332752" endtime="1502332953"><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="192.168.0.16" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="closed" count="999">
+<extrareasons reason="conn-refused" count="999"/>
+</extraports>
+<port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ssh" product="OpenSSH" version="6.7p1 Debian 5+deb8u3" extrainfo="protocol 2.0" ostype="Linux" method="probed" conf="10"><cpe>cpe:/a:openbsd:openssh:6.7p1</cpe><cpe>cpe:/o:linux:linux_kernel</cpe></service><script id="ssh-hostkey" output="&#xa;  1024 8b:be:a9:2a:2c:4d:48:51:ec:7b:b6:9e:6b:86:8a:54 (DSA)&#xa;  2048 93:a9:95:0a:90:56:9d:2e:a1:e4:f1:15:63:63:5e:59 (RSA)&#xa;  256 d9:4d:67:37:f7:19:45:98:bb:2c:78:5b:98:67:b6:61 (ECDSA)"><table>
+<elem key="bits">1024</elem>
+<elem key="type">ssh-dss</elem>
+<elem key="fingerprint">8bbea92a2c4d4851ec7bb69e6b868a54</elem>
+<elem key="key">AAAAB3NzaC1kc3MAAACBAPRM5R6ExK1gK5r0P78KuoQqxiZ255PtClve/lhpUMVl8hw0aLzjXDtDTDIulJEuBv7QbvdOfizdkKn2GOd2h7/pRDA6VyV+WNoKV7UIXeSR+jaboCxzvOdHwGwk86dNXdU9TWO57jYnnH5yLUV1OGO8Xcy3dPNplaNxerfK1uwNAAAAFQC/FElEsz9Iaqt+NCnutZe9AtiuKQAAAIEA5UVHrkK9CCD6CsVZ5Ozs59SJuaWMfT0AcbYa7woFj1gWwQ8GFM4bf0C+LuUAhmOdY2LzEaCmFEaj016hHoDTOE05J57Z36RkFbwjkqSFQMMhXnKdmQIqConnRZ4CVQr68nBU5FsvDksUDr/IhAvIDrjZRnoxiaeIcEl7vG1J2J8AAACAZrPAn0IyRx0RwMq6q6OovywB9JdAigz5KiFLpR/5nhzZrehq+ZTpFdb5VKer/6nkV5nBqvnh81WgEaTGw3ZhjhPBYTxcgmo31tru9RK38orQV5y1YmaGZr2PZB9oKaTT4NoOtHWH/0X3UIBSeuTayuR2RWKYBZop5hEjSDK9o+k=</elem>
+</table>
+<table>
+<elem key="bits">2048</elem>
+<elem key="type">ssh-rsa</elem>
+<elem key="fingerprint">93a9950a90569d2ea1e4f11563635e59</elem>
+<elem key="key">AAAAB3NzaC1yc2EAAAADAQABAAABAQDcsp/26eZ/PhRBnedSB1RqqyVkHxpundBmIUBaHDUNZ9r3Fp5NNG9bXXGelmkTVxtg6En30txIYarEyC7Ef5sn23huv3/Ff2GmXFk6nVbKfo19Dytg2C1uHG8LU4WeecucEko4Y7jKG/QL0kZkI+TURWac94P6lc2o0VZS13gjs2hS+vCfCTmHEhRH72XFJBou8ax0v1KvOI7EshniSw1B9s4mU/XHK0jeBbhllXxxRfDU1ODNiVJTLUJXFw6x2Zw3IUZyQ5wVNm5MT2NgCvUOEy2sSGhwVq5jSRfiOSToPHPMGMV3ulxVGN9fdZFiXkqMx7ZX1AIh8L6PTzn2Drl9</elem>
+</table>
+<table>
+<elem key="bits">256</elem>
+<elem key="type">ecdsa-sha2-nistp256</elem>
+<elem key="fingerprint">d94d6737f7194598bb2c785b9867b661</elem>
+<elem key="key">AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBGnJAgzYd5TBGUAvcoAysNqNjTYy0VJO8u0TQvXBFxl0zIu48IPh2vUIF2NhIAjTFvJ/ooR5ZwpdabOWUy7R5a8=</elem>
+</table>
+</script></port>
+</ports>
+<times srtt="131" rttvar="115" to="100000"/>
+</host>
+<host starttime="1502332752" endtime="1502332953"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="192.168.0.21" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="closed" count="992">
+<extrareasons reason="conn-refused" count="992"/>
+</extraports>
+<port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ssh" product="OpenSSH" version="3.8.1p1 Debian 8.sarge.4" extrainfo="protocol 2.0" ostype="Linux" method="probed" conf="10"><cpe>cpe:/a:openbsd:openssh:3.8.1p1</cpe><cpe>cpe:/o:linux:linux_kernel</cpe></service><script id="auth-owners" output="root&#xd;"/><script id="ssh-hostkey" output="&#xa;  1024 88:ea:d0:3e:0a:05:56:3c:68:7f:b0:7e:43:9e:57:b5 (DSA)&#xa;  1024 40:cc:1b:f4:40:94:91:49:bc:31:e2:ea:6a:61:42:78 (RSA)"><table>
+<elem key="bits">1024</elem>
+<elem key="type">ssh-dss</elem>
+<elem key="fingerprint">88ead03e0a05563c687fb07e439e57b5</elem>
+<elem key="key">AAAAB3NzaC1kc3MAAACBAL1ISyfCZKJkVpEcHtqpDjvQAoq9RzOiWdhbg0ceWiKsW6fzLg7gNZhK4tsQR2qZPkw2Rzz9N+cYEqTVRGktbWl66mfYNEOCIcmN+vmtK5gW16T7KI1trv7HmtdckApxJEleke/L3/v5U+6WJ031NTYRrCf7/jXW6TzInpldbcEZAAAAFQDFjJYvcjg/+yI2tVuelTMmYdV/JQAAAIEArepOyWjWVifSrfjVKHJ81J5RO4eIIgNs5K07/CcxOhAIjxSbkuLZ4oZt3p4NHJjmmCRISuwQZ4KQK5wSTajHw7XnIlPrK+u6rl6ORAWL0yeNt59ht5hfEV38AJKoxbHDWtOFt5gUvYNj2ZaZ1re/M6dSuO+8tjZ0tTzzZYGBPQYAAACBAKPX95QYechXf6nNbo9wRjfxAnJHY9X1JNP1nngf2o4EeVC2+B2u5LXs9Q9EQTmcRPDYLFtjjYAX8oNw9X+RzCWhN3orYCU2oDoRtykbqRBFh39Nl8hD8qi9u1HqIrUjNpFSc05F8dttv4yKVlWtfLllxufHGMrbCFZMDk4gg1wh</elem>
+</table>
+<table>
+<elem key="bits">1024</elem>
+<elem key="type">ssh-rsa</elem>
+<elem key="fingerprint">40cc1bf440949149bc31e2ea6a614278</elem>
+<elem key="key">AAAAB3NzaC1yc2EAAAABIwAAAIEAoiH43bgM2nIjKS9kl5mSN5H1kumX7kBZshCeQGPSK20EROWrq79Acbxh2wgk7JtTzjSm6p3kaY61S+VJOBy1P8xkxD50TBJNwe6K1EvUOpYw4fWNM3g7RZVeEFX64+cL6756ycADkQO/FL+s2QhKNgVYkWjd7VBs6j6t2LG3qoc=</elem>
+</table>
+</script></port>
+<port protocol="tcp" portid="25"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="smtp" method="table" conf="3"/><script id="auth-owners" output="root&#xd;"/><script id="smtp-commands" output="Couldn&apos;t establish connection on port 25"/></port>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" product="Apache httpd" version="1.3.33" extrainfo="(Debian GNU/Linux)" method="probed" conf="10"><cpe>cpe:/a:apache:http_server:1.3.33</cpe></service><script id="auth-owners" output="www-data&#xd;"/><script id="http-methods" output="&#xa;  Potentially risky methods: TRACE"><table key="Potentially risky methods">
+<elem>TRACE</elem>
+</table>
+</script><script id="http-robots.txt" output="1 disallowed entry &#xa;/"/><script id="http-server-header" output="Apache/1.3.33 (Debian GNU/Linux)"><elem>Apache/1.3.33 (Debian GNU/Linux)</elem>
+</script><script id="http-title" output="Index Page for the Hack me Debian"><elem key="title">Index Page for the Hack me Debian</elem>
+</script></port>
+<port protocol="tcp" portid="111"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="rpcbind" version="2" extrainfo="RPC #100000" method="probed" conf="10"/><script id="auth-owners" output="daemon&#xd;"/><script id="rpcinfo" output="&#xa;  program version   port/proto  service&#xa;  100000  2            111/tcp  rpcbind&#xa;  100000  2            111/udp  rpcbind&#xa;  100003  2,3         2049/tcp  nfs&#xa;  100003  2,3         2049/udp  nfs&#xa;  100005  1,2,3        608/udp  mountd&#xa;  100005  1,2,3        611/tcp  mountd&#xa;  100021  1,3,4      32772/udp  nlockmgr&#xa;  100021  1,3,4      32782/tcp  nlockmgr&#xa;  100024  1            718/udp  status&#xa;  100024  1            721/tcp  status&#xa;"><table key="100021">
+<table key="udp">
+<table key="version">
+<elem>1</elem>
+<elem>3</elem>
+<elem>4</elem>
+</table>
+<elem key="port">32772</elem>
+</table>
+<table key="tcp">
+<table key="version">
+<elem>1</elem>
+<elem>3</elem>
+<elem>4</elem>
+</table>
+<elem key="port">32782</elem>
+</table>
+</table>
+<table key="100024">
+<table key="udp">
+<table key="version">
+<elem>1</elem>
+</table>
+<elem key="port">718</elem>
+</table>
+<table key="tcp">
+<table key="version">
+<elem>1</elem>
+</table>
+<elem key="port">721</elem>
+</table>
+</table>
+<table key="100003">
+<table key="udp">
+<table key="version">
+<elem>2</elem>
+<elem>3</elem>
+</table>
+<elem key="port">2049</elem>
+</table>
+<table key="tcp">
+<table key="version">
+<elem>2</elem>
+<elem>3</elem>
+</table>
+<elem key="port">2049</elem>
+</table>
+</table>
+<table key="100000">
+<table key="tcp">
+<table key="version">
+<elem>2</elem>
+</table>
+<elem key="port">111</elem>
+</table>
+<table key="udp">
+<table key="version">
+<elem>2</elem>
+</table>
+<elem key="port">111</elem>
+</table>
+</table>
+<table key="100005">
+<table key="udp">
+<table key="version">
+<elem>1</elem>
+<elem>2</elem>
+<elem>3</elem>
+</table>
+<elem key="port">608</elem>
+</table>
+<table key="tcp">
+<table key="version">
+<elem>1</elem>
+<elem>2</elem>
+<elem>3</elem>
+</table>
+<elem key="port">611</elem>
+</table>
+</table>
+</script></port>
+<port protocol="tcp" portid="113"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ident" method="probed" conf="10"/><script id="auth-owners" output="identd&#xd;"/></port>
+<port protocol="tcp" portid="139"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="netbios-ssn" method="table" conf="3"/><script id="auth-owners" output="root&#xd;"/></port>
+<port protocol="tcp" portid="2049"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="nfs" version="2-3" extrainfo="RPC #100003" method="probed" conf="10"/><script id="auth-owners" output="root&#xd;"/><script id="rpcinfo" output="&#xa;  program version   port/proto  service&#xa;  100000  2            111/tcp  rpcbind&#xa;  100000  2            111/udp  rpcbind&#xa;  100003  2,3         2049/tcp  nfs&#xa;  100003  2,3         2049/udp  nfs&#xa;  100005  1,2,3        608/udp  mountd&#xa;  100005  1,2,3        611/tcp  mountd&#xa;  100021  1,3,4      32772/udp  nlockmgr&#xa;  100021  1,3,4      32782/tcp  nlockmgr&#xa;  100024  1            718/udp  status&#xa;  100024  1            721/tcp  status&#xa;"><table key="100021">
+<table key="udp">
+<table key="version">
+<elem>1</elem>
+<elem>3</elem>
+<elem>4</elem>
+</table>
+<elem key="port">32772</elem>
+</table>
+<table key="tcp">
+<table key="version">
+<elem>1</elem>
+<elem>3</elem>
+<elem>4</elem>
+</table>
+<elem key="port">32782</elem>
+</table>
+</table>
+<table key="100024">
+<table key="udp">
+<table key="version">
+<elem>1</elem>
+</table>
+<elem key="port">718</elem>
+</table>
+<table key="tcp">
+<table key="version">
+<elem>1</elem>
+</table>
+<elem key="port">721</elem>
+</table>
+</table>
+<table key="100003">
+<table key="udp">
+<table key="version">
+<elem>2</elem>
+<elem>3</elem>
+</table>
+<elem key="port">2049</elem>
+</table>
+<table key="tcp">
+<table key="version">
+<elem>2</elem>
+<elem>3</elem>
+</table>
+<elem key="port">2049</elem>
+</table>
+</table>
+<table key="100000">
+<table key="tcp">
+<table key="version">
+<elem>2</elem>
+</table>
+<elem key="port">111</elem>
+</table>
+<table key="udp">
+<table key="version">
+<elem>2</elem>
+</table>
+<elem key="port">111</elem>
+</table>
+</table>
+<table key="100005">
+<table key="udp">
+<table key="version">
+<elem>1</elem>
+<elem>2</elem>
+<elem>3</elem>
+</table>
+<elem key="port">608</elem>
+</table>
+<table key="tcp">
+<table key="version">
+<elem>1</elem>
+<elem>2</elem>
+<elem>3</elem>
+</table>
+<elem key="port">611</elem>
+</table>
+</table>
+</script></port>
+<port protocol="tcp" portid="32782"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="nlockmgr" version="1-4" extrainfo="RPC #100021" method="probed" conf="10"/><script id="auth-owners" output="root&#xd;"/><script id="rpcinfo" output="&#xa;  program version   port/proto  service&#xa;  100000  2            111/tcp  rpcbind&#xa;  100000  2            111/udp  rpcbind&#xa;  100003  2,3         2049/tcp  nfs&#xa;  100003  2,3         2049/udp  nfs&#xa;  100005  1,2,3        608/udp  mountd&#xa;  100005  1,2,3        611/tcp  mountd&#xa;  100021  1,3,4      32772/udp  nlockmgr&#xa;  100021  1,3,4      32782/tcp  nlockmgr&#xa;  100024  1            718/udp  status&#xa;  100024  1            721/tcp  status&#xa;"><table key="100021">
+<table key="udp">
+<table key="version">
+<elem>1</elem>
+<elem>3</elem>
+<elem>4</elem>
+</table>
+<elem key="port">32772</elem>
+</table>
+<table key="tcp">
+<table key="version">
+<elem>1</elem>
+<elem>3</elem>
+<elem>4</elem>
+</table>
+<elem key="port">32782</elem>
+</table>
+</table>
+<table key="100024">
+<table key="udp">
+<table key="version">
+<elem>1</elem>
+</table>
+<elem key="port">718</elem>
+</table>
+<table key="tcp">
+<table key="version">
+<elem>1</elem>
+</table>
+<elem key="port">721</elem>
+</table>
+</table>
+<table key="100003">
+<table key="udp">
+<table key="version">
+<elem>2</elem>
+<elem>3</elem>
+</table>
+<elem key="port">2049</elem>
+</table>
+<table key="tcp">
+<table key="version">
+<elem>2</elem>
+<elem>3</elem>
+</table>
+<elem key="port">2049</elem>
+</table>
+</table>
+<table key="100000">
+<table key="tcp">
+<table key="version">
+<elem>2</elem>
+</table>
+<elem key="port">111</elem>
+</table>
+<table key="udp">
+<table key="version">
+<elem>2</elem>
+</table>
+<elem key="port">111</elem>
+</table>
+</table>
+<table key="100005">
+<table key="udp">
+<table key="version">
+<elem>1</elem>
+<elem>2</elem>
+<elem>3</elem>
+</table>
+<elem key="port">608</elem>
+</table>
+<table key="tcp">
+<table key="version">
+<elem>1</elem>
+<elem>2</elem>
+<elem>3</elem>
+</table>
+<elem key="port">611</elem>
+</table>
+</table>
+</script></port>
+</ports>
+<times srtt="437" rttvar="264" to="100000"/>
+</host>
+<host starttime="1502332752" endtime="1502332953"><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="192.168.0.22" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="closed" count="996">
+<extrareasons reason="conn-refused" count="996"/>
+</extraports>
+<port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ssh" product="OpenSSH" version="2.2.0p1" extrainfo="protocol 1.99" method="probed" conf="10"><cpe>cpe:/a:openbsd:openssh:2.2.0p1</cpe></service><script id="ssh-hostkey" output="&#xa;  1024 88:c2:07:68:3e:30:96:ed:b4:8d:d3:af:c9:df:1a:cc (RSA1)&#xa;  1024 bb:4e:be:e0:39:a6:14:9e:43:78:18:21:88:bb:50:de (DSA)"><table>
+<elem key="bits">1024</elem>
+<elem key="type">rsa1</elem>
+<elem key="fingerprint">88c207683e3096edb48dd3afc9df1acc</elem>
+<elem key="key">35 137799827929525617003066021141972213024842953577485829717089211437080364095621786382232411745492799590340319374358892283001626574361120113478528737140084420976525458185926723454268549743173461615536122130181318842983133369182515008401379642574253175838890514554590729880913611671115420911036208546266702518627</elem>
+</table>
+<table>
+<elem key="bits">1024</elem>
+<elem key="type">ssh-dss</elem>
+<elem key="fingerprint">bb4ebee039a6149e4378182188bb50de</elem>
+<elem key="key">AAAAB3NzaC1kc3MAAACBAMNnuNWCqe2RBuKOcEMAil7Vivve67WvCDdjQJNAeOJglxys2mIvnvYbP6wMnOS1lG6MFX+iRp6+OWnZzk0A7K9YQ7JpKKFZaI87oRvrK0nbZGe2S5o5x6+POfMVEntxp4XyHhTK3F6lPUpu+j6Sh7qdN+EGKx5rKXYOZ8J0MH6jAAAAFQCwCNjIkQPhiiN7iYiuYSUy44kM9QAAAIBikizdeXfR9zNfWph4zXoytwsxAAiHQAMHOemz4jy0b+2+JdNa0I2Ec0Mj7PLbvE7DueToY9ZmyL4shCtfvmcxLg1MSEP/aDqnI0Eg7LrgJ3irmKQIamYnJtP7RKm56V6uYSYFeuvfjVB87QEOkdSywB/sirRBuGKvnQpkBBnIKwAAAIBfdJE7AEh78Eo3q3p6S21GdyKNeE5l4N7AHMHN4b+PR/4muhvs2KGKnuS7WH+ub3L/NzDhV4F+QOx11gyVP6LphNq3Jyy4nhR7UsCEmYozCOugtg+qImC1WLG6WVdfUOvTKKeP7qdm8FFcl8F1Af6qmw8iFdG274g3Cx9pKcDtSg==</elem>
+</table>
+</script><script id="sshv1" output="Server supports SSHv1">true</script></port>
+<port protocol="tcp" portid="3128"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http-proxy" product="Squid http proxy" version="2.5.STABLE12" method="probed" conf="10"><cpe>cpe:/a:squid-cache:squid:2.5.stable12</cpe></service><script id="http-server-header" output="squid/2.5.STABLE12"><elem>squid/2.5.STABLE12</elem>
+</script><script id="http-title" output="ERROR: The requested URL could not be retrieved"><elem key="title">ERROR: The requested URL could not be retrieved</elem>
+</script></port>
+<port protocol="tcp" portid="3306"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="mysql" product="MySQL" version="5.0.18" method="probed" conf="10"><cpe>cpe:/a:mysql:mysql:5.0.18</cpe></service><script id="mysql-info" output="&#xa;  Protocol: 53&#xa;  Version: .0.18&#xa;  Thread ID: 12&#xa;  Capabilities flags: 41516&#xa;  Some Capabilities: Support41Auth, SupportsCompression, SupportsTransactions, Speaks41ProtocolNew, LongColumnFlag, ConnectWithDatabase&#xa;  Status: Autocommit&#xa;  Salt: ^G)6sbq1?)N0B&lt;F*=4//"><elem key="Protocol">53</elem>
+<elem key="Version">.0.18</elem>
+<elem key="Thread ID">12</elem>
+<elem key="Capabilities flags">41516</elem>
+<table key="Some Capabilities">
+<elem>Support41Auth</elem>
+<elem>SupportsCompression</elem>
+<elem>SupportsTransactions</elem>
+<elem>Speaks41ProtocolNew</elem>
+<elem>LongColumnFlag</elem>
+<elem>ConnectWithDatabase</elem>
+</table>
+<elem key="Status">Autocommit</elem>
+<elem key="Salt">^G)6sbq1?)N0B&lt;F*=4//</elem>
+</script></port>
+<port protocol="tcp" portid="5432"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="postgresql" product="PostgreSQL DB" method="probed" conf="10"><cpe>cpe:/a:postgresql:postgresql</cpe></service></port>
+</ports>
+<times srtt="107" rttvar="63" to="100000"/>
+</host>
+<host starttime="1502332752" endtime="1502332953"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="192.168.0.33" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="closed" count="979">
+<extrareasons reason="conn-refused" count="979"/>
+</extraports>
+<port protocol="tcp" portid="53"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="domain" product="Microsoft DNS" ostype="Windows" method="probed" conf="10"><cpe>cpe:/a:microsoft:dns</cpe><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" product="Microsoft IIS httpd" version="6.0" ostype="Windows" method="probed" conf="10"><cpe>cpe:/a:microsoft:iis:6.0</cpe><cpe>cpe:/o:microsoft:windows</cpe></service><script id="http-methods" output="&#xa;  Potentially risky methods: TRACE DELETE COPY MOVE PROPFIND PROPPATCH SEARCH MKCOL LOCK UNLOCK PUT"><table key="Potentially risky methods">
+<elem>TRACE</elem>
+<elem>DELETE</elem>
+<elem>COPY</elem>
+<elem>MOVE</elem>
+<elem>PROPFIND</elem>
+<elem>PROPPATCH</elem>
+<elem>SEARCH</elem>
+<elem>MKCOL</elem>
+<elem>LOCK</elem>
+<elem>UNLOCK</elem>
+<elem>PUT</elem>
+</table>
+</script><script id="http-server-header" output="Microsoft-IIS/6.0"><elem>Microsoft-IIS/6.0</elem>
+</script><script id="http-title" output="Site doesn&apos;t have a title (text/html)."></script><script id="http-webdav-scan" output="ERROR: Script execution failed (use -d to debug)"/></port>
+<port protocol="tcp" portid="88"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="kerberos-sec" product="Windows 2003 Kerberos" extrainfo="server time: 2021-04-12 15:28:47Z" ostype="Windows" method="probed" conf="10"><cpe>cpe:/a:microsoft:kerberos</cpe><cpe>cpe:/o:microsoft:windows_server_2003</cpe></service></port>
+<port protocol="tcp" portid="135"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="msrpc" product="Microsoft Windows RPC" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="tcp" portid="139"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="netbios-ssn" product="Microsoft Windows 98 netbios-ssn" ostype="Windows 98" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows_98</cpe></service></port>
+<port protocol="tcp" portid="389"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ldap" method="probed" conf="10"/></port>
+<port protocol="tcp" portid="443"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" product="Microsoft IIS httpd" version="6.0" ostype="Windows" tunnel="ssl" method="probed" conf="10"><cpe>cpe:/a:microsoft:iis:6.0</cpe><cpe>cpe:/o:microsoft:windows</cpe></service><script id="http-methods" output="&#xa;  Potentially risky methods: TRACE DELETE COPY MOVE PROPFIND PROPPATCH SEARCH MKCOL LOCK UNLOCK PUT"><table key="Potentially risky methods">
+<elem>TRACE</elem>
+<elem>DELETE</elem>
+<elem>COPY</elem>
+<elem>MOVE</elem>
+<elem>PROPFIND</elem>
+<elem>PROPPATCH</elem>
+<elem>SEARCH</elem>
+<elem>MKCOL</elem>
+<elem>LOCK</elem>
+<elem>UNLOCK</elem>
+<elem>PUT</elem>
+</table>
+</script><script id="http-server-header" output="Microsoft-IIS/6.0"><elem>Microsoft-IIS/6.0</elem>
+</script><script id="http-title" output="Site doesn&apos;t have a title (text/html)."></script><script id="http-webdav-scan" output="ERROR: Script execution failed (use -d to debug)"/><script id="ssl-cert" output="Subject: commonName=TOM2003&#xa;Not valid before: 2006-09-04T18:33:25&#xa;Not valid after:  2006-09-11T18:33:25"><table key="subject">
+<elem key="commonName">TOM2003</elem>
+</table>
+<table key="issuer">
+<elem key="commonName">TOM2003</elem>
+</table>
+<table key="pubkey">
+<elem key="bits">1024</elem>
+<elem key="type">rsa</elem>
+</table>
+<elem key="sig_algo">sha1WithRSA</elem>
+<table key="validity">
+<elem key="notBefore">2006-09-04T18:33:25</elem>
+<elem key="notAfter">2006-09-11T18:33:25</elem>
+</table>
+<elem key="md5">e901ceada391a0b7051444a17335fd1b</elem>
+<elem key="sha1">78ecb83d7d867baab72df06079b543f6f524ecad</elem>
+<elem key="pem">-&#45;&#45;&#45;&#45;BEGIN CERTIFICATE-&#45;&#45;&#45;&#45;&#xa;MIIByDCCATWgAwIBAgIQL4T9UzRhf5BCzi5a0HT64jAJBgUrDgMCHQUAMBIxEDAO&#xa;BgNVBAMTB1RPTTIwMDMwHhcNMDYwOTA0MTgzMzI1WhcNMDYwOTExMTgzMzI1WjAS&#xa;MRAwDgYDVQQDEwdUT00yMDAzMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDm&#xa;N7E9bY3ICdRQ7McF3uegB8xmpfpm+KvjTkvDTjreLfrQBNeDr3f/mQSah0hg1/ru&#xa;m13OCJPmKnJuEhQfnhLK6RFcCALRZ2WM/LO4v3I+XMjPFryUOW18P+dOzf6oKknx&#xa;IeglNADQM1ZwA4O0chUgpPuSB+eODl7m3t+VZvq8WQIDAQABoycwJTATBgNVHSUE&#xa;DDAKBggrBgEFBQcDATAOBgNVHQ8EBwMFALAAAAAwCQYFKw4DAh0FAAOBgQDlMIM1&#xa;dqjjpyYkrJavag40CRISX2y7oXNwa/ZxNgssKx+bqoRwuOn2gRWBJCUNhSuZzBZv&#xa;JDStltfBt6YOdfe6SshEWAI+eYDn9LVWzBBkbi967hcx9m+TrouA5YC5aXUDcl0k&#xa;qTaslsboOW0UMJ7BUAuN6Edi35vwRO1xB0WgYQ==&#xa;-&#45;&#45;&#45;&#45;END CERTIFICATE-&#45;&#45;&#45;&#45;&#xa;</elem>
+</script><script id="ssl-date" output="2021-04-12T15:31:11+00:00; +3y245d12h49m08s from scanner time."><elem key="date">2021-04-12T15:31:11+00:00</elem>
+<elem key="delta">115908548</elem>
+</script><script id="sslv2" output="&#xa;  SSLv2 supported&#xa;  ciphers: &#xa;    SSL2_RC4_128_WITH_MD5&#xa;    SSL2_DES_192_EDE3_CBC_WITH_MD5&#xa;    SSL2_RC2_CBC_128_CBC_WITH_MD5&#xa;    SSL2_DES_64_CBC_WITH_MD5&#xa;    SSL2_RC4_128_EXPORT40_WITH_MD5&#xa;    SSL2_RC2_CBC_128_CBC_WITH_MD5"><elem>SSLv2 supported</elem>
+<table key="ciphers">
+<elem>SSL2_RC4_128_WITH_MD5</elem>
+<elem>SSL2_DES_192_EDE3_CBC_WITH_MD5</elem>
+<elem>SSL2_RC2_CBC_128_CBC_WITH_MD5</elem>
+<elem>SSL2_DES_64_CBC_WITH_MD5</elem>
+<elem>SSL2_RC4_128_EXPORT40_WITH_MD5</elem>
+<elem>SSL2_RC2_CBC_128_CBC_WITH_MD5</elem>
+</table>
+</script></port>
+<port protocol="tcp" portid="445"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="microsoft-ds" product="Microsoft Windows 2003 or 2008 microsoft-ds" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows_server_2003</cpe></service></port>
+<port protocol="tcp" portid="464"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="kpasswd5" method="table" conf="3"/></port>
+<port protocol="tcp" portid="593"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ncacn_http" product="Microsoft Windows RPC over HTTP" version="1.0" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="tcp" portid="636"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="tcpwrapped" method="probed" conf="8"/></port>
+<port protocol="tcp" portid="1025"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="msrpc" product="Microsoft Windows RPC" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="tcp" portid="1026"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="msrpc" product="Microsoft Windows RPC" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="tcp" portid="1028"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ncacn_http" product="Microsoft Windows RPC over HTTP" version="1.0" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="tcp" portid="1723"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="pptp" product="Microsoft" version="(Firmware: 3790)" hostname="" method="probed" conf="10"/></port>
+<port protocol="tcp" portid="3001"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="msrpc" product="Microsoft Windows RPC" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="tcp" portid="3005"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="msrpc" product="Microsoft Windows RPC" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="tcp" portid="3013"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="msrpc" product="Microsoft Windows RPC" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+<port protocol="tcp" portid="3268"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ldap" method="probed" conf="10"/></port>
+<port protocol="tcp" portid="3269"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="tcpwrapped" method="probed" conf="8"/></port>
+<port protocol="tcp" portid="3389"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ms-wbt-server" product="Microsoft Terminal Service" ostype="Windows" method="probed" conf="10"><cpe>cpe:/o:microsoft:windows</cpe></service></port>
+</ports>
+<hostscript><script id="nbstat" output="NetBIOS name: TOM2003, NetBIOS user: &lt;unknown&gt;, NetBIOS MAC: 00:50:56:84:9b:c6 (VMware)"><elem key="user">&lt;unknown&gt;</elem>
+<elem key="server_name">TOM2003</elem>
+<table key="mac">
+<elem key="address">00:50:56:84:9b:c6</elem>
+<elem key="manuf">VMware</elem>
+</table>
+<table key="names">
+<table>
+<elem key="name">TOM2003</elem>
+<elem key="suffix">0</elem>
+<elem key="flags">1024</elem>
+</table>
+<table>
+<elem key="name">PENTESTINGLAB</elem>
+<elem key="suffix">0</elem>
+<elem key="flags">33792</elem>
+</table>
+<table>
+<elem key="name">PENTESTINGLAB</elem>
+<elem key="suffix">28</elem>
+<elem key="flags">33792</elem>
+</table>
+<table>
+<elem key="name">TOM2003</elem>
+<elem key="suffix">32</elem>
+<elem key="flags">1024</elem>
+</table>
+<table>
+<elem key="name">PENTESTINGLAB</elem>
+<elem key="suffix">27</elem>
+<elem key="flags">1024</elem>
+</table>
+<table>
+<elem key="name">PENTESTINGLAB</elem>
+<elem key="suffix">30</elem>
+<elem key="flags">33792</elem>
+</table>
+<table>
+<elem key="name">PENTESTINGLAB</elem>
+<elem key="suffix">29</elem>
+<elem key="flags">1024</elem>
+</table>
+<table>
+<elem key="name">\x01\x02__MSBROWSE__\x02</elem>
+<elem key="suffix">1</elem>
+<elem key="flags">33792</elem>
+</table>
+</table>
+<table key="statistics">
+<elem>00 50 56 84 9b c6 00 00 00 00 00 00 00 00 00 00 00</elem>
+<elem>00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00</elem>
+<elem>00 00 00 00 00 00 00 00 00 00 00 00 00 00</elem>
+</table>
+</script><script id="smb-os-discovery" output="&#xa;  OS: Windows Server 2003 3790 (Windows Server 2003 5.2)&#xa;  OS CPE: cpe:/o:microsoft:windows_server_2003::-&#xa;  Computer name: tom2003&#xa;  NetBIOS computer name: TOM2003&#xa;  Domain name: PenTestingLab.local&#xa;  Forest name: PenTestingLab.local&#xa;  FQDN: tom2003.PenTestingLab.local&#xa;  System time: 2021-04-12T16:31:10+01:00&#xa;"><elem key="os">Windows Server 2003 3790</elem>
+<elem key="lanmanager">Windows Server 2003 5.2</elem>
+<elem key="server">TOM2003\x00</elem>
+<elem key="date">2021-04-12T16:31:10+01:00</elem>
+<elem key="fqdn">tom2003.PenTestingLab.local</elem>
+<elem key="domain_dns">PenTestingLab.local</elem>
+<elem key="forest_dns">PenTestingLab.local</elem>
+<elem key="workgroup">PENTESTINGLAB\x00</elem>
+<elem key="cpe">cpe:/o:microsoft:windows_server_2003::-</elem>
+</script><script id="smb-security-mode" output="&#xa;  account_used: &lt;blank&gt;&#xa;  authentication_level: user&#xa;  challenge_response: supported&#xa;  message_signing: required"><elem key="account_used">&lt;blank&gt;</elem>
+<elem key="authentication_level">user</elem>
+<elem key="challenge_response">supported</elem>
+<elem key="message_signing">required</elem>
+</script><script id="smbv2-enabled" output="Server doesn&apos;t support SMBv2 protocol">false</script></hostscript><times srtt="421" rttvar="214" to="100000"/>
+</host>
+<postscript><script id="ssh-hostkey" output="Possible duplicate hosts&#xa;Key 1024 8e:88:57:20:17:86:59:61:bc:0e:72:98:b8:fc:0a:77 (DSA) used by:&#xa;  192.168.0.12&#xa;  192.168.0.14&#xa;  192.168.0.15&#xa;Key 2048 a7:4c:ff:6e:1e:87:58:8f:07:8e:aa:49:fc:bc:a9:28 (RSA) used by:&#xa;  192.168.0.12&#xa;  192.168.0.14&#xa;  192.168.0.15"><table>
+<table key="hosts">
+<elem>192.168.0.12</elem>
+<elem>192.168.0.14</elem>
+<elem>192.168.0.15</elem>
+</table>
+<table key="key">
+<elem key="type">ssh-dss</elem>
+<elem key="fingerprint">8e:88:57:20:17:86:59:61:bc:0e:72:98:b8:fc:0a:77</elem>
+<elem key="bits">1024</elem>
+</table>
+</table>
+<table>
+<table key="hosts">
+<elem>192.168.0.12</elem>
+<elem>192.168.0.14</elem>
+<elem>192.168.0.15</elem>
+</table>
+<table key="key">
+<elem key="type">ssh-rsa</elem>
+<elem key="fingerprint">a7:4c:ff:6e:1e:87:58:8f:07:8e:aa:49:fc:bc:a9:28</elem>
+<elem key="bits">2048</elem>
+</table>
+</table>
+</script></postscript><runstats><finished time="1502332953" timestr="Thu Aug 10 03:42:33 2017" elapsed="201.44" summary="Nmap done at Thu Aug 10 03:42:33 2017; 256 IP addresses (8 hosts up) scanned in 201.44 seconds" exit="success"/><hosts up="8" down="248" total="256"/>
+</runstats>
+</nmaprun>

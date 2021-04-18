@@ -1,0 +1,41 @@
+# Nmap 7.01 scan initiated Thu Aug 10 06:22:32 2017 as: nmap -oA smb-brute --script=smb-brute 192.168.0.26
+Nmap scan report for 192.168.0.26
+Host is up (0.000085s latency).
+Not shown: 972 closed ports
+PORT     STATE SERVICE
+7/tcp    open  echo
+9/tcp    open  discard
+13/tcp   open  daytime
+17/tcp   open  qotd
+19/tcp   open  chargen
+25/tcp   open  smtp
+80/tcp   open  http
+119/tcp  open  nntp
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+443/tcp  open  https
+445/tcp  open  microsoft-ds
+563/tcp  open  snews
+1025/tcp open  NFS-or-IIS
+1026/tcp open  LSA-or-nterm
+1028/tcp open  unknown
+1433/tcp open  ms-sql-s
+1723/tcp open  pptp
+3306/tcp open  mysql
+3372/tcp open  msdtc
+3389/tcp open  ms-wbt-server
+5001/tcp open  commplex-link
+5800/tcp open  vnc-http
+5900/tcp open  vnc
+8009/tcp open  ajp13
+8080/tcp open  http-proxy
+8081/tcp open  blackice-icecap
+8443/tcp open  https-alt
+
+Host script results:
+| smb-brute: 
+|   guest:<blank> => Valid credentials, account disabled
+|   john:password => Valid credentials
+|_  max:max123 => Valid credentials
+
+# Nmap done at Thu Aug 10 06:22:58 2017 -- 1 IP address (1 host up) scanned in 25.72 seconds

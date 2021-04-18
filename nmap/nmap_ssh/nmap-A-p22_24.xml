@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.01 scan initiated Thu Aug 10 03:44:39 2017 as: nmap -A -p22 -oA nmap-oA-p22_24 192.168.0.0/24 -->
+<nmaprun scanner="nmap" args="nmap -A -p22 -oA nmap-oA-p22_24 192.168.0.0/24" start="1502333079" startstr="Thu Aug 10 03:44:39 2017" version="7.01" xmloutputversion="1.04">
+<scaninfo type="connect" protocol="tcp" numservices="1" services="22"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<host starttime="1502333079" endtime="1502333096"><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="192.168.0.11" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ssh" product="OpenSSH" version="4.2" extrainfo="protocol 1.99" method="probed" conf="10"><cpe>cpe:/a:openbsd:openssh:4.2</cpe></service><script id="ssh-hostkey" output="&#xa;  2048 83:3c:f3:02:83:1c:32:78:f4:71:60:b2:a1:f1:55:64 (RSA1)&#xa;  2048 56:6a:a4:52:e4:6b:d5:26:d9:13:dd:35:14:3f:57:23 (DSA)&#xa;  2048 8c:68:ef:d5:df:fa:18:c9:a5:12:11:e2:f2:22:a3:09 (RSA)"><table>
+<elem key="key">35 21348025717124725832257633450790568497830339655195312529228045321662444783085411823763771232272162861024461008864497218041887051682746523043996954085972911654495432902563109130311686545619937192227624389060105987052689773607320618049189808048074380528838719558904772724002915042820500804750914060175921772983498493840294394067082345278425568676819231636437258551631941140301797793503260504367383817404488072921762075396891033391092062073763152582737103992346257181523734958395630339063596156548278778163731292567487840293452101359002689730399180155083488392891250506033567497119928969202641212697369813668244760969219</elem>
+<elem key="type">rsa1</elem>
+<elem key="bits">2048</elem>
+<elem key="fingerprint">833cf302831c3278f47160b2a1f15564</elem>
+</table>
+<table>
+<elem key="key">AAAAB3NzaC1kc3MAAAEBANMgd9CzFdRV4k482Qh0D5m9e40DUfUicts7hJAiV8nqLMmK194098R+BiTlDYKfS24xlqqqgDHIqQJXtanROxBTfr0uyE/GO675IEbrC+MIeEwxYVtXwqturV9N1pw+XG/2Be4QJmMRK64hdNDDTOQ7NVB3JczAyJPomqcP+c/5PSbyc1f5oLqdUfx1s9dGDFvffO6bvJgBjZzmL7hWqwZm0ssCzHxK376rtKsNcX5tm1BZoPeVJEez5Z/DXdi1+fJE/U3mYQypoqHoArSGI2QigTezMsL+f6v4phwU0RtQbATKhpup58U48473auSY7GGI5ltsXQfQ2N3xAVUs3H0AAAAVALqrGnbPYM0BK4H8N4DIqVlh8VC5AAABAF7pbWUBBC+4n8NbDHCjw2yovPFn1OiklZ2AeLcQU63BydmCl22CtzSdXpKZoCEg9sGZX+e1FWlf4dIx30/KSgVsofcu++Uyszx1aXd/n2OmtDzNKUs2Oyxja9IBOj7A/JdMbfHUOdSycpBpqkA7Su5jTZxV0biuans4kL5oLA+o17sVKbs4AqWUJugyWwY/uJqC7F8PSF3EPaqItzRkSHp5XVFj+ZifrPmSFgI7ueoJUDGXUHBsF+XuQNxMdlQbUbtFCcCFTOGLHvWbVTJTecw0rOxDZ+JHdn5A0yRDGQ2dYJFBDgYA3vBNYqO66gwWtSEcqLNfYHyCaRnjG1Ev1sYAAAEAfEINwGyhqzYZXPIzkAA7jAA2nw1ly9BHtAs1poAauLMcgf47J531E1FSAHUeiGVjJ4EriDYDnzjac6yBFVFwQD6nNl4qJFMLXEd0f3qiCRbLPTqAY8umbDYT7DjhlT5alyDxLZ3P9SRJh7thCnREK90zdr8vGuiZjfYo8t8HM0OWRVm8mRdR+VAZAygfP+Y/DwviZcAH6rTsnLUCTgLNiqU0fXRwnX0CqNlVxPdNFAqFPM5YSxAhjxXDm5ENN8NMk6ohpUtVnjutjHgH+9MV5QH1Bna/J7hSmJlrsuXez2O36+oyEZ1TVwgM7uWt/SL3aGM8S52z8Fu7/wKlRJSQOw==</elem>
+<elem key="type">ssh-dss</elem>
+<elem key="bits">2048</elem>
+<elem key="fingerprint">566aa452e46bd526d913dd35143f5723</elem>
+</table>
+<table>
+<elem key="key">AAAAB3NzaC1yc2EAAAABIwAAAQEAnS8/D7fnyEG2Ewta9PlQbC6ayWq+Yruz/ZqQoj+8R/car9YsVLy/nVzmlBGyJo1CICfgH68ry3yT5XL8lCV2RmxJnowSvNh5vszADLT4I6s2xr1yrn4bo/UnbyU46wADdfXcYJ4zXkUuy9cHwaqRpZFIysKUhO5GAZDqLDbDyFsoQTXMv45GTAOSJQ11FwauNfRS0HlSsnurKoKdKQ3nTZezsB2IqIlbO8THbxlM0mIE9jIzAYUdIIJngTn9CuYTNqvvqC4P74ILEp1dJrq7pkc6J3DLYAh6mTK1B2pzqtwZy6WJpTfTVwWrYHk5nQqg99/IXv1NqeEQtcIyKo7f4Q==</elem>
+<elem key="type">ssh-rsa</elem>
+<elem key="bits">2048</elem>
+<elem key="fingerprint">8c68efd5dffa18c9a51211e2f222a309</elem>
+</table>
+</script><script id="sshv1" output="Server supports SSHv1">true</script></port>
+</ports>
+<times srtt="165" rttvar="3754" to="100000"/>
+</host>
+<host starttime="1502333079" endtime="1502333096"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="192.168.0.12" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ssh" product="OpenSSH" version="5.3p1 Debian 3ubuntu7" extrainfo="Ubuntu Linux; protocol 2.0" ostype="Linux" method="probed" conf="10"><cpe>cpe:/a:openbsd:openssh:5.3p1</cpe><cpe>cpe:/o:linux:linux_kernel</cpe></service><script id="ssh-hostkey" output="&#xa;  1024 8e:88:57:20:17:86:59:61:bc:0e:72:98:b8:fc:0a:77 (DSA)&#xa;  2048 a7:4c:ff:6e:1e:87:58:8f:07:8e:aa:49:fc:bc:a9:28 (RSA)"><table>
+<elem key="key">AAAAB3NzaC1kc3MAAACBAItK+1TKl8J2XOZs3PUXijw1tumh1TlSAw3rbvg/S/u90AMLwR6BjKBqpgCClRYGzGDSjb9Apm34XhqVAii3DdD7heJri3kFfQo4DfwI6quVZzmNBoDq5oMES0mRmyqYanc51vWN0/cF+McRCWU2xdKrvfIOJaYzPghh43wWxA8rAAAAFQC42IlmSdLXS4n8c4Dfa+8bxdV5hQAAAIB+R+5Q+RHfge142WZGd+mKMsk6CmP9nYGWM4z6boR9wOZXBxKoOzwN3RWWUeaHT+iwIkp5Am5CN2vnXNLTIsFN2uf02tSCHNSWpck6yxv1CrjLi/hcwYPVqpKMouHarZNqsWWlNhPvxT8gPspomcfNiIeuMFgWDDKIzKIZDYP5mAAAAIBMEhiVkqCYl7LHJBQdfaoa/CvY9qVD/eXgFYejGZZCDC4aR1gQRMO8Uj4tPkj6Es4J1+PLmqif8+/bvF3TP5E56I8R/ExHemb6QsT8FjYlHlrMnKzPebq435+C+pN2GVyKLHsFE80edBZPheIumu3BmwdNnpGYixx/3MRcRHs7cw==</elem>
+<elem key="type">ssh-dss</elem>
+<elem key="bits">1024</elem>
+<elem key="fingerprint">8e88572017865961bc0e7298b8fc0a77</elem>
+</table>
+<table>
+<elem key="key">AAAAB3NzaC1yc2EAAAABIwAAAQEA3T2A3Xn+/H8X/adOBw0vE+d+KRI1+WKex6Cq2o3QJwJjLef2SeSnWQsrhV4FN8FHby1e9YHHnx8czMM64CB5ZsL/2n8LC2YopFd9Xr65VGdajFauMBny9KdCDvxCp/dVaKw6CeZap60B52eZ3JkEko4T0itS5meJo7xM3wlifNEBvT1UfUNjeYo8olsJSzdykZhN+WRGlbOYB1/6QbgZuWn5wpwnmwpmFRnf0vKeoqBqL+fdMNPALrkkpFQ1V4B2gSfG/YgpfWcde5WPaGC8mCoSX47+j1FvxAg4JRiSA7camamEd/uYKfAfYR/f7GwvFSFngW3W8Lh4JmZhLMVt3Q==</elem>
+<elem key="type">ssh-rsa</elem>
+<elem key="bits">2048</elem>
+<elem key="fingerprint">a74cff6e1e87588f078eaa49fcbca928</elem>
+</table>
+</script></port>
+</ports>
+<times srtt="195" rttvar="2891" to="100000"/>
+</host>
+<host starttime="1502333079" endtime="1502333096"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="192.168.0.14" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ssh" product="OpenSSH" version="5.3p1 Debian 3ubuntu7" extrainfo="Ubuntu Linux; protocol 2.0" ostype="Linux" method="probed" conf="10"><cpe>cpe:/a:openbsd:openssh:5.3p1</cpe><cpe>cpe:/o:linux:linux_kernel</cpe></service><script id="ssh-hostkey" output="&#xa;  1024 8e:88:57:20:17:86:59:61:bc:0e:72:98:b8:fc:0a:77 (DSA)&#xa;  2048 a7:4c:ff:6e:1e:87:58:8f:07:8e:aa:49:fc:bc:a9:28 (RSA)"><table>
+<elem key="key">AAAAB3NzaC1kc3MAAACBAItK+1TKl8J2XOZs3PUXijw1tumh1TlSAw3rbvg/S/u90AMLwR6BjKBqpgCClRYGzGDSjb9Apm34XhqVAii3DdD7heJri3kFfQo4DfwI6quVZzmNBoDq5oMES0mRmyqYanc51vWN0/cF+McRCWU2xdKrvfIOJaYzPghh43wWxA8rAAAAFQC42IlmSdLXS4n8c4Dfa+8bxdV5hQAAAIB+R+5Q+RHfge142WZGd+mKMsk6CmP9nYGWM4z6boR9wOZXBxKoOzwN3RWWUeaHT+iwIkp5Am5CN2vnXNLTIsFN2uf02tSCHNSWpck6yxv1CrjLi/hcwYPVqpKMouHarZNqsWWlNhPvxT8gPspomcfNiIeuMFgWDDKIzKIZDYP5mAAAAIBMEhiVkqCYl7LHJBQdfaoa/CvY9qVD/eXgFYejGZZCDC4aR1gQRMO8Uj4tPkj6Es4J1+PLmqif8+/bvF3TP5E56I8R/ExHemb6QsT8FjYlHlrMnKzPebq435+C+pN2GVyKLHsFE80edBZPheIumu3BmwdNnpGYixx/3MRcRHs7cw==</elem>
+<elem key="type">ssh-dss</elem>
+<elem key="bits">1024</elem>
+<elem key="fingerprint">8e88572017865961bc0e7298b8fc0a77</elem>
+</table>
+<table>
+<elem key="key">AAAAB3NzaC1yc2EAAAABIwAAAQEA3T2A3Xn+/H8X/adOBw0vE+d+KRI1+WKex6Cq2o3QJwJjLef2SeSnWQsrhV4FN8FHby1e9YHHnx8czMM64CB5ZsL/2n8LC2YopFd9Xr65VGdajFauMBny9KdCDvxCp/dVaKw6CeZap60B52eZ3JkEko4T0itS5meJo7xM3wlifNEBvT1UfUNjeYo8olsJSzdykZhN+WRGlbOYB1/6QbgZuWn5wpwnmwpmFRnf0vKeoqBqL+fdMNPALrkkpFQ1V4B2gSfG/YgpfWcde5WPaGC8mCoSX47+j1FvxAg4JRiSA7camamEd/uYKfAfYR/f7GwvFSFngW3W8Lh4JmZhLMVt3Q==</elem>
+<elem key="type">ssh-rsa</elem>
+<elem key="bits">2048</elem>
+<elem key="fingerprint">a74cff6e1e87588f078eaa49fcbca928</elem>
+</table>
+</script></port>
+</ports>
+<times srtt="199" rttvar="3781" to="100000"/>
+</host>
+<host starttime="1502333079" endtime="1502333096"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="192.168.0.15" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ssh" product="OpenSSH" version="5.3p1 Debian 3ubuntu7" extrainfo="Ubuntu Linux; protocol 2.0" ostype="Linux" method="probed" conf="10"><cpe>cpe:/a:openbsd:openssh:5.3p1</cpe><cpe>cpe:/o:linux:linux_kernel</cpe></service><script id="ssh-hostkey" output="&#xa;  1024 8e:88:57:20:17:86:59:61:bc:0e:72:98:b8:fc:0a:77 (DSA)&#xa;  2048 a7:4c:ff:6e:1e:87:58:8f:07:8e:aa:49:fc:bc:a9:28 (RSA)"><table>
+<elem key="key">AAAAB3NzaC1kc3MAAACBAItK+1TKl8J2XOZs3PUXijw1tumh1TlSAw3rbvg/S/u90AMLwR6BjKBqpgCClRYGzGDSjb9Apm34XhqVAii3DdD7heJri3kFfQo4DfwI6quVZzmNBoDq5oMES0mRmyqYanc51vWN0/cF+McRCWU2xdKrvfIOJaYzPghh43wWxA8rAAAAFQC42IlmSdLXS4n8c4Dfa+8bxdV5hQAAAIB+R+5Q+RHfge142WZGd+mKMsk6CmP9nYGWM4z6boR9wOZXBxKoOzwN3RWWUeaHT+iwIkp5Am5CN2vnXNLTIsFN2uf02tSCHNSWpck6yxv1CrjLi/hcwYPVqpKMouHarZNqsWWlNhPvxT8gPspomcfNiIeuMFgWDDKIzKIZDYP5mAAAAIBMEhiVkqCYl7LHJBQdfaoa/CvY9qVD/eXgFYejGZZCDC4aR1gQRMO8Uj4tPkj6Es4J1+PLmqif8+/bvF3TP5E56I8R/ExHemb6QsT8FjYlHlrMnKzPebq435+C+pN2GVyKLHsFE80edBZPheIumu3BmwdNnpGYixx/3MRcRHs7cw==</elem>
+<elem key="type">ssh-dss</elem>
+<elem key="bits">1024</elem>
+<elem key="fingerprint">8e88572017865961bc0e7298b8fc0a77</elem>
+</table>
+<table>
+<elem key="key">AAAAB3NzaC1yc2EAAAABIwAAAQEA3T2A3Xn+/H8X/adOBw0vE+d+KRI1+WKex6Cq2o3QJwJjLef2SeSnWQsrhV4FN8FHby1e9YHHnx8czMM64CB5ZsL/2n8LC2YopFd9Xr65VGdajFauMBny9KdCDvxCp/dVaKw6CeZap60B52eZ3JkEko4T0itS5meJo7xM3wlifNEBvT1UfUNjeYo8olsJSzdykZhN+WRGlbOYB1/6QbgZuWn5wpwnmwpmFRnf0vKeoqBqL+fdMNPALrkkpFQ1V4B2gSfG/YgpfWcde5WPaGC8mCoSX47+j1FvxAg4JRiSA7camamEd/uYKfAfYR/f7GwvFSFngW3W8Lh4JmZhLMVt3Q==</elem>
+<elem key="type">ssh-rsa</elem>
+<elem key="bits">2048</elem>
+<elem key="fingerprint">a74cff6e1e87588f078eaa49fcbca928</elem>
+</table>
+</script></port>
+</ports>
+<times srtt="222" rttvar="3770" to="100000"/>
+</host>
+<host starttime="1502333079" endtime="1502333096"><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="192.168.0.16" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ssh" product="OpenSSH" version="6.7p1 Debian 5+deb8u3" extrainfo="protocol 2.0" ostype="Linux" method="probed" conf="10"><cpe>cpe:/a:openbsd:openssh:6.7p1</cpe><cpe>cpe:/o:linux:linux_kernel</cpe></service><script id="ssh-hostkey" output="&#xa;  1024 8b:be:a9:2a:2c:4d:48:51:ec:7b:b6:9e:6b:86:8a:54 (DSA)&#xa;  2048 93:a9:95:0a:90:56:9d:2e:a1:e4:f1:15:63:63:5e:59 (RSA)&#xa;  256 d9:4d:67:37:f7:19:45:98:bb:2c:78:5b:98:67:b6:61 (ECDSA)"><table>
+<elem key="key">AAAAB3NzaC1kc3MAAACBAPRM5R6ExK1gK5r0P78KuoQqxiZ255PtClve/lhpUMVl8hw0aLzjXDtDTDIulJEuBv7QbvdOfizdkKn2GOd2h7/pRDA6VyV+WNoKV7UIXeSR+jaboCxzvOdHwGwk86dNXdU9TWO57jYnnH5yLUV1OGO8Xcy3dPNplaNxerfK1uwNAAAAFQC/FElEsz9Iaqt+NCnutZe9AtiuKQAAAIEA5UVHrkK9CCD6CsVZ5Ozs59SJuaWMfT0AcbYa7woFj1gWwQ8GFM4bf0C+LuUAhmOdY2LzEaCmFEaj016hHoDTOE05J57Z36RkFbwjkqSFQMMhXnKdmQIqConnRZ4CVQr68nBU5FsvDksUDr/IhAvIDrjZRnoxiaeIcEl7vG1J2J8AAACAZrPAn0IyRx0RwMq6q6OovywB9JdAigz5KiFLpR/5nhzZrehq+ZTpFdb5VKer/6nkV5nBqvnh81WgEaTGw3ZhjhPBYTxcgmo31tru9RK38orQV5y1YmaGZr2PZB9oKaTT4NoOtHWH/0X3UIBSeuTayuR2RWKYBZop5hEjSDK9o+k=</elem>
+<elem key="type">ssh-dss</elem>
+<elem key="bits">1024</elem>
+<elem key="fingerprint">8bbea92a2c4d4851ec7bb69e6b868a54</elem>
+</table>
+<table>
+<elem key="key">AAAAB3NzaC1yc2EAAAADAQABAAABAQDcsp/26eZ/PhRBnedSB1RqqyVkHxpundBmIUBaHDUNZ9r3Fp5NNG9bXXGelmkTVxtg6En30txIYarEyC7Ef5sn23huv3/Ff2GmXFk6nVbKfo19Dytg2C1uHG8LU4WeecucEko4Y7jKG/QL0kZkI+TURWac94P6lc2o0VZS13gjs2hS+vCfCTmHEhRH72XFJBou8ax0v1KvOI7EshniSw1B9s4mU/XHK0jeBbhllXxxRfDU1ODNiVJTLUJXFw6x2Zw3IUZyQ5wVNm5MT2NgCvUOEy2sSGhwVq5jSRfiOSToPHPMGMV3ulxVGN9fdZFiXkqMx7ZX1AIh8L6PTzn2Drl9</elem>
+<elem key="type">ssh-rsa</elem>
+<elem key="bits">2048</elem>
+<elem key="fingerprint">93a9950a90569d2ea1e4f11563635e59</elem>
+</table>
+<table>
+<elem key="key">AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBGnJAgzYd5TBGUAvcoAysNqNjTYy0VJO8u0TQvXBFxl0zIu48IPh2vUIF2NhIAjTFvJ/ooR5ZwpdabOWUy7R5a8=</elem>
+<elem key="type">ecdsa-sha2-nistp256</elem>
+<elem key="bits">256</elem>
+<elem key="fingerprint">d94d6737f7194598bb2c785b9867b661</elem>
+</table>
+</script></port>
+</ports>
+<times srtt="149" rttvar="3753" to="100000"/>
+</host>
+<host starttime="1502333079" endtime="1502333096"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="192.168.0.21" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ssh" product="OpenSSH" version="3.8.1p1 Debian 8.sarge.4" extrainfo="protocol 2.0" ostype="Linux" method="probed" conf="10"><cpe>cpe:/a:openbsd:openssh:3.8.1p1</cpe><cpe>cpe:/o:linux:linux_kernel</cpe></service><script id="ssh-hostkey" output="&#xa;  1024 88:ea:d0:3e:0a:05:56:3c:68:7f:b0:7e:43:9e:57:b5 (DSA)&#xa;  1024 40:cc:1b:f4:40:94:91:49:bc:31:e2:ea:6a:61:42:78 (RSA)"><table>
+<elem key="key">AAAAB3NzaC1kc3MAAACBAL1ISyfCZKJkVpEcHtqpDjvQAoq9RzOiWdhbg0ceWiKsW6fzLg7gNZhK4tsQR2qZPkw2Rzz9N+cYEqTVRGktbWl66mfYNEOCIcmN+vmtK5gW16T7KI1trv7HmtdckApxJEleke/L3/v5U+6WJ031NTYRrCf7/jXW6TzInpldbcEZAAAAFQDFjJYvcjg/+yI2tVuelTMmYdV/JQAAAIEArepOyWjWVifSrfjVKHJ81J5RO4eIIgNs5K07/CcxOhAIjxSbkuLZ4oZt3p4NHJjmmCRISuwQZ4KQK5wSTajHw7XnIlPrK+u6rl6ORAWL0yeNt59ht5hfEV38AJKoxbHDWtOFt5gUvYNj2ZaZ1re/M6dSuO+8tjZ0tTzzZYGBPQYAAACBAKPX95QYechXf6nNbo9wRjfxAnJHY9X1JNP1nngf2o4EeVC2+B2u5LXs9Q9EQTmcRPDYLFtjjYAX8oNw9X+RzCWhN3orYCU2oDoRtykbqRBFh39Nl8hD8qi9u1HqIrUjNpFSc05F8dttv4yKVlWtfLllxufHGMrbCFZMDk4gg1wh</elem>
+<elem key="type">ssh-dss</elem>
+<elem key="bits">1024</elem>
+<elem key="fingerprint">88ead03e0a05563c687fb07e439e57b5</elem>
+</table>
+<table>
+<elem key="key">AAAAB3NzaC1yc2EAAAABIwAAAIEAoiH43bgM2nIjKS9kl5mSN5H1kumX7kBZshCeQGPSK20EROWrq79Acbxh2wgk7JtTzjSm6p3kaY61S+VJOBy1P8xkxD50TBJNwe6K1EvUOpYw4fWNM3g7RZVeEFX64+cL6756ycADkQO/FL+s2QhKNgVYkWjd7VBs6j6t2LG3qoc=</elem>
+<elem key="type">ssh-rsa</elem>
+<elem key="bits">1024</elem>
+<elem key="fingerprint">40cc1bf440949149bc31e2ea6a614278</elem>
+</table>
+</script></port>
+</ports>
+<times srtt="751" rttvar="3912" to="100000"/>
+</host>
+<host starttime="1502333079" endtime="1502333096"><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="192.168.0.22" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ssh" product="OpenSSH" version="2.2.0p1" extrainfo="protocol 1.99" method="probed" conf="10"><cpe>cpe:/a:openbsd:openssh:2.2.0p1</cpe></service><script id="ssh-hostkey" output="&#xa;  1024 88:c2:07:68:3e:30:96:ed:b4:8d:d3:af:c9:df:1a:cc (RSA1)&#xa;  1024 bb:4e:be:e0:39:a6:14:9e:43:78:18:21:88:bb:50:de (DSA)"><table>
+<elem key="key">35 137799827929525617003066021141972213024842953577485829717089211437080364095621786382232411745492799590340319374358892283001626574361120113478528737140084420976525458185926723454268549743173461615536122130181318842983133369182515008401379642574253175838890514554590729880913611671115420911036208546266702518627</elem>
+<elem key="type">rsa1</elem>
+<elem key="bits">1024</elem>
+<elem key="fingerprint">88c207683e3096edb48dd3afc9df1acc</elem>
+</table>
+<table>
+<elem key="key">AAAAB3NzaC1kc3MAAACBAMNnuNWCqe2RBuKOcEMAil7Vivve67WvCDdjQJNAeOJglxys2mIvnvYbP6wMnOS1lG6MFX+iRp6+OWnZzk0A7K9YQ7JpKKFZaI87oRvrK0nbZGe2S5o5x6+POfMVEntxp4XyHhTK3F6lPUpu+j6Sh7qdN+EGKx5rKXYOZ8J0MH6jAAAAFQCwCNjIkQPhiiN7iYiuYSUy44kM9QAAAIBikizdeXfR9zNfWph4zXoytwsxAAiHQAMHOemz4jy0b+2+JdNa0I2Ec0Mj7PLbvE7DueToY9ZmyL4shCtfvmcxLg1MSEP/aDqnI0Eg7LrgJ3irmKQIamYnJtP7RKm56V6uYSYFeuvfjVB87QEOkdSywB/sirRBuGKvnQpkBBnIKwAAAIBfdJE7AEh78Eo3q3p6S21GdyKNeE5l4N7AHMHN4b+PR/4muhvs2KGKnuS7WH+ub3L/NzDhV4F+QOx11gyVP6LphNq3Jyy4nhR7UsCEmYozCOugtg+qImC1WLG6WVdfUOvTKKeP7qdm8FFcl8F1Af6qmw8iFdG274g3Cx9pKcDtSg==</elem>
+<elem key="type">ssh-dss</elem>
+<elem key="bits">1024</elem>
+<elem key="fingerprint">bb4ebee039a6149e4378182188bb50de</elem>
+</table>
+</script><script id="sshv1" output="Server supports SSHv1">true</script></port>
+</ports>
+<times srtt="93" rttvar="3770" to="100000"/>
+</host>
+<host starttime="1502333079" endtime="1502333096"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="192.168.0.33" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="closed" reason="conn-refused" reason_ttl="0"/><service name="ssh" method="table" conf="3"/></port>
+</ports>
+<times srtt="482" rttvar="3836" to="100000"/>
+</host>
+<postscript><script id="ssh-hostkey" output="Possible duplicate hosts&#xa;Key 2048 a7:4c:ff:6e:1e:87:58:8f:07:8e:aa:49:fc:bc:a9:28 (RSA) used by:&#xa;  192.168.0.12&#xa;  192.168.0.14&#xa;  192.168.0.15&#xa;Key 1024 8e:88:57:20:17:86:59:61:bc:0e:72:98:b8:fc:0a:77 (DSA) used by:&#xa;  192.168.0.12&#xa;  192.168.0.14&#xa;  192.168.0.15"><table>
+<table key="key">
+<elem key="type">ssh-rsa</elem>
+<elem key="bits">2048</elem>
+<elem key="fingerprint">a7:4c:ff:6e:1e:87:58:8f:07:8e:aa:49:fc:bc:a9:28</elem>
+</table>
+<table key="hosts">
+<elem>192.168.0.12</elem>
+<elem>192.168.0.14</elem>
+<elem>192.168.0.15</elem>
+</table>
+</table>
+<table>
+<table key="key">
+<elem key="type">ssh-dss</elem>
+<elem key="bits">1024</elem>
+<elem key="fingerprint">8e:88:57:20:17:86:59:61:bc:0e:72:98:b8:fc:0a:77</elem>
+</table>
+<table key="hosts">
+<elem>192.168.0.12</elem>
+<elem>192.168.0.14</elem>
+<elem>192.168.0.15</elem>
+</table>
+</table>
+</script></postscript><runstats><finished time="1502333096" timestr="Thu Aug 10 03:44:56 2017" elapsed="17.65" summary="Nmap done at Thu Aug 10 03:44:56 2017; 256 IP addresses (8 hosts up) scanned in 17.65 seconds" exit="success"/><hosts up="8" down="248" total="256"/>
+</runstats>
+</nmaprun>

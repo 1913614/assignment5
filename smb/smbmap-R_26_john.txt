@@ -1,0 +1,9 @@
+[+] Finding open SMB ports....
+[+] User SMB session establishd on 192.168.0.26...
+[+] IP: 192.168.0.26:445	Name: unkown                                            
+	Disk                                                  	Permissions
+	----                                                  	-----------
+	IPC$                                              	NO ACCESS
+	D$                                                	NO ACCESS
+	ADMIN$                                            	NO ACCESS
+	C$                                                	NO ACCESS

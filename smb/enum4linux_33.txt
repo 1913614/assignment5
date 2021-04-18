@@ -1,0 +1,235 @@
+Starting enum4linux v0.8.9 ( http://labs.portcullis.co.uk/application/enum4linux/ ) on Thu Aug 10 10:31:40 2017
+
+ ========================== 
+|    Target Information    |
+ ========================== 
+Target ........... 192.168.0.33
+RID Range ........ 500-550,1000-1050
+Username ......... ''
+Password ......... ''
+Known Usernames .. administrator, guest, krbtgt, domain admins, root, bin, none
+
+
+ ==================================================== 
+|    Enumerating Workgroup/Domain on 192.168.0.33    |
+ ==================================================== 
+[+] Got domain/workgroup name: PENTESTINGLAB
+
+ ============================================ 
+|    Nbtstat Information for 192.168.0.33    |
+ ============================================ 
+Looking up status of 192.168.0.33
+	TOM2003         <00> -         B <ACTIVE>  Workstation Service
+	PENTESTINGLAB   <00> - <GROUP> B <ACTIVE>  Domain/Workgroup Name
+	PENTESTINGLAB   <1c> - <GROUP> B <ACTIVE>  Domain Controllers
+	TOM2003         <20> -         B <ACTIVE>  File Server Service
+	PENTESTINGLAB   <1b> -         B <ACTIVE>  Domain Master Browser
+	PENTESTINGLAB   <1e> - <GROUP> B <ACTIVE>  Browser Service Elections
+	PENTESTINGLAB   <1d> -         B <ACTIVE>  Master Browser
+	..__MSBROWSE__. <01> - <GROUP> B <ACTIVE>  Master Browser
+
+	MAC Address = 00-50-56-84-9B-C6
+
+ ===================================== 
+|    Session Check on 192.168.0.33    |
+ ===================================== 
+[+] Server 192.168.0.33 allows sessions using username '', password ''
+
+ =========================================== 
+|    Getting domain SID for 192.168.0.33    |
+ =========================================== 
+mkdir failed on directory /var/cache/samba/lck: Permission denied
+Domain Name: PENTESTINGLAB
+Domain Sid: S-1-5-21-4059760142-3336171831-2262450316
+[+] Host is part of a domain (not a workgroup)
+
+ ====================================== 
+|    OS information on 192.168.0.33    |
+ ====================================== 
+[+] Got OS info for 192.168.0.33 from smbclient: Domain=[PENTESTINGLAB] OS=[Windows Server 2003 3790] Server=[Windows Server 2003 5.2]
+[+] Got OS info for 192.168.0.33 from srvinfo:
+mkdir failed on directory /var/cache/samba/lck: Permission denied
+	192.168.0.33   Wk Sv PDC Tim Din NT LMB 
+	platform_id     :	500
+	os version      :	5.2
+	server type     :	0x284142b
+
+ ============================= 
+|    Users on 192.168.0.33    |
+ ============================= 
+[E] Couldn't find users using querydispinfo: NT_STATUS_ACCESS_DENIED
+
+[E] Couldn't find users using enumdomusers: NT_STATUS_ACCESS_DENIED
+
+ ========================================= 
+|    Share Enumeration on 192.168.0.33    |
+ ========================================= 
+Domain=[PENTESTINGLAB] OS=[Windows Server 2003 3790] Server=[Windows Server 2003 5.2]
+Domain=[PENTESTINGLAB] OS=[Windows Server 2003 3790] Server=[Windows Server 2003 5.2]
+
+	Sharename       Type      Comment
+	---------       ----      -------
+	E$              Disk      Default share
+	IPC$            IPC       Remote IPC
+	NETLOGON        Disk      Logon server share 
+	ADMIN$          Disk      Remote Admin
+	SYSVOL          Disk      Logon server share 
+	C$              Disk      Default share
+
+	Server               Comment
+	---------            -------
+	TOM2003              
+
+	Workgroup            Master
+	---------            -------
+	PENTESTINGLAB        TOM2003
+
+[+] Attempting to map shares on 192.168.0.33
+//192.168.0.33/E$	Mapping: DENIED, Listing: N/A
+//192.168.0.33/IPC$	Mapping: OK	Listing: DENIED
+//192.168.0.33/NETLOGON	Mapping: DENIED, Listing: N/A
+//192.168.0.33/ADMIN$	Mapping: DENIED, Listing: N/A
+//192.168.0.33/SYSVOL	Mapping: DENIED, Listing: N/A
+//192.168.0.33/C$	Mapping: DENIED, Listing: N/A
+
+ ==================================================== 
+|    Password Policy Information for 192.168.0.33    |
+ ==================================================== 
+[E] Can't connect to host with supplied credentials.
+
+[E] Failed to get password policy with rpcclient
+
+
+ ============================== 
+|    Groups on 192.168.0.33    |
+ ============================== 
+
+[+] Getting builtin groups:
+
+[+] Getting builtin group memberships:
+
+[+] Getting local groups:
+
+[+] Getting local group memberships:
+
+[+] Getting domain groups:
+
+[+] Getting domain group memberships:
+
+ ======================================================================= 
+|    Users on 192.168.0.33 via RID cycling (RIDS: 500-550,1000-1050)    |
+ ======================================================================= 
+[I] Found new SID: S-1-5-21-4059760142-3336171831-2262450316
+[+] Enumerating users using SID S-1-5-21-4059760142-3336171831-2262450316 and logon username '', password ''
+S-1-5-21-4059760142-3336171831-2262450316-500 PENTESTINGLAB\Administrator (Local User)
+S-1-5-21-4059760142-3336171831-2262450316-501 PENTESTINGLAB\Guest (Local User)
+S-1-5-21-4059760142-3336171831-2262450316-502 PENTESTINGLAB\krbtgt (Local User)
+S-1-5-21-4059760142-3336171831-2262450316-503 *unknown*\*unknown* (8)
+S-1-5-21-4059760142-3336171831-2262450316-504 *unknown*\*unknown* (8)
+S-1-5-21-4059760142-3336171831-2262450316-505 *unknown*\*unknown* (8)
+S-1-5-21-4059760142-3336171831-2262450316-506 *unknown*\*unknown* (8)
+S-1-5-21-4059760142-3336171831-2262450316-507 *unknown*\*unknown* (8)
+S-1-5-21-4059760142-3336171831-2262450316-508 *unknown*\*unknown* (8)
+S-1-5-21-4059760142-3336171831-2262450316-509 *unknown*\*unknown* (8)
+S-1-5-21-4059760142-3336171831-2262450316-510 *unknown*\*unknown* (8)
+S-1-5-21-4059760142-3336171831-2262450316-511 *unknown*\*unknown* (8)
+S-1-5-21-4059760142-3336171831-2262450316-512 PENTESTINGLAB\Domain Admins (Domain Group)
+S-1-5-21-4059760142-3336171831-2262450316-513 PENTESTINGLAB\Domain Users (Domain Group)
+S-1-5-21-4059760142-3336171831-2262450316-514 PENTESTINGLAB\Domain Guests (Domain Group)
+S-1-5-21-4059760142-3336171831-2262450316-515 PENTESTINGLAB\Domain Computers (Domain Group)
+S-1-5-21-4059760142-3336171831-2262450316-516 PENTESTINGLAB\Domain Controllers (Domain Group)
+S-1-5-21-4059760142-3336171831-2262450316-517 PENTESTINGLAB\Cert Publishers (Local Group)
+S-1-5-21-4059760142-3336171831-2262450316-518 PENTESTINGLAB\Schema Admins (Domain Group)
+S-1-5-21-4059760142-3336171831-2262450316-519 PENTESTINGLAB\Enterprise Admins (Domain Group)
+S-1-5-21-4059760142-3336171831-2262450316-520 PENTESTINGLAB\Group Policy Creator Owners (Domain Group)
+S-1-5-21-4059760142-3336171831-2262450316-521 *unknown*\*unknown* (8)
+S-1-5-21-4059760142-3336171831-2262450316-522 *unknown*\*unknown* (8)
+S-1-5-21-4059760142-3336171831-2262450316-523 *unknown*\*unknown* (8)
+S-1-5-21-4059760142-3336171831-2262450316-524 *unknown*\*unknown* (8)
+S-1-5-21-4059760142-3336171831-2262450316-525 *unknown*\*unknown* (8)
+S-1-5-21-4059760142-3336171831-2262450316-526 *unknown*\*unknown* (8)
+S-1-5-21-4059760142-3336171831-2262450316-527 *unknown*\*unknown* (8)
+S-1-5-21-4059760142-3336171831-2262450316-528 *unknown*\*unknown* (8)
+S-1-5-21-4059760142-3336171831-2262450316-529 *unknown*\*unknown* (8)
+S-1-5-21-4059760142-3336171831-2262450316-530 *unknown*\*unknown* (8)
+S-1-5-21-4059760142-3336171831-2262450316-531 *unknown*\*unknown* (8)
+S-1-5-21-4059760142-3336171831-2262450316-532 *unknown*\*unknown* (8)
+S-1-5-21-4059760142-3336171831-2262450316-533 *unknown*\*unknown* (8)
+S-1-5-21-4059760142-3336171831-2262450316-534 *unknown*\*unknown* (8)
+S-1-5-21-4059760142-3336171831-2262450316-535 *unknown*\*unknown* (8)
+S-1-5-21-4059760142-3336171831-2262450316-536 *unknown*\*unknown* (8)
+S-1-5-21-4059760142-3336171831-2262450316-537 *unknown*\*unknown* (8)
+S-1-5-21-4059760142-3336171831-2262450316-538 *unknown*\*unknown* (8)
+S-1-5-21-4059760142-3336171831-2262450316-539 *unknown*\*unknown* (8)
+S-1-5-21-4059760142-3336171831-2262450316-540 *unknown*\*unknown* (8)
+S-1-5-21-4059760142-3336171831-2262450316-541 *unknown*\*unknown* (8)
+S-1-5-21-4059760142-3336171831-2262450316-542 *unknown*\*unknown* (8)
+S-1-5-21-4059760142-3336171831-2262450316-543 *unknown*\*unknown* (8)
+S-1-5-21-4059760142-3336171831-2262450316-544 *unknown*\*unknown* (8)
+S-1-5-21-4059760142-3336171831-2262450316-545 *unknown*\*unknown* (8)
+S-1-5-21-4059760142-3336171831-2262450316-546 *unknown*\*unknown* (8)
+S-1-5-21-4059760142-3336171831-2262450316-547 *unknown*\*unknown* (8)
+S-1-5-21-4059760142-3336171831-2262450316-548 *unknown*\*unknown* (8)
+S-1-5-21-4059760142-3336171831-2262450316-549 *unknown*\*unknown* (8)
+S-1-5-21-4059760142-3336171831-2262450316-550 *unknown*\*unknown* (8)
+S-1-5-21-4059760142-3336171831-2262450316-1000 PENTESTINGLAB\HelpServicesGroup (Local Group)
+S-1-5-21-4059760142-3336171831-2262450316-1001 PENTESTINGLAB\SUPPORT_388945a0 (Local User)
+S-1-5-21-4059760142-3336171831-2262450316-1002 PENTESTINGLAB\TelnetClients (Local Group)
+S-1-5-21-4059760142-3336171831-2262450316-1003 PENTESTINGLAB\DHCP Users (Local Group)
+S-1-5-21-4059760142-3336171831-2262450316-1004 PENTESTINGLAB\DHCP Administrators (Local Group)
+S-1-5-21-4059760142-3336171831-2262450316-1005 PENTESTINGLAB\TOM2003$ (Local User)
+S-1-5-21-4059760142-3336171831-2262450316-1006 *unknown*\*unknown* (8)
+S-1-5-21-4059760142-3336171831-2262450316-1007 *unknown*\*unknown* (8)
+S-1-5-21-4059760142-3336171831-2262450316-1008 *unknown*\*unknown* (8)
+S-1-5-21-4059760142-3336171831-2262450316-1009 *unknown*\*unknown* (8)
+S-1-5-21-4059760142-3336171831-2262450316-1010 *unknown*\*unknown* (8)
+S-1-5-21-4059760142-3336171831-2262450316-1011 *unknown*\*unknown* (8)
+S-1-5-21-4059760142-3336171831-2262450316-1012 *unknown*\*unknown* (8)
+S-1-5-21-4059760142-3336171831-2262450316-1013 *unknown*\*unknown* (8)
+S-1-5-21-4059760142-3336171831-2262450316-1014 *unknown*\*unknown* (8)
+S-1-5-21-4059760142-3336171831-2262450316-1015 *unknown*\*unknown* (8)
+S-1-5-21-4059760142-3336171831-2262450316-1016 *unknown*\*unknown* (8)
+S-1-5-21-4059760142-3336171831-2262450316-1017 *unknown*\*unknown* (8)
+S-1-5-21-4059760142-3336171831-2262450316-1018 *unknown*\*unknown* (8)
+S-1-5-21-4059760142-3336171831-2262450316-1019 *unknown*\*unknown* (8)
+S-1-5-21-4059760142-3336171831-2262450316-1020 *unknown*\*unknown* (8)
+S-1-5-21-4059760142-3336171831-2262450316-1021 *unknown*\*unknown* (8)
+S-1-5-21-4059760142-3336171831-2262450316-1022 *unknown*\*unknown* (8)
+S-1-5-21-4059760142-3336171831-2262450316-1023 *unknown*\*unknown* (8)
+S-1-5-21-4059760142-3336171831-2262450316-1024 *unknown*\*unknown* (8)
+S-1-5-21-4059760142-3336171831-2262450316-1025 *unknown*\*unknown* (8)
+S-1-5-21-4059760142-3336171831-2262450316-1026 *unknown*\*unknown* (8)
+S-1-5-21-4059760142-3336171831-2262450316-1027 *unknown*\*unknown* (8)
+S-1-5-21-4059760142-3336171831-2262450316-1028 *unknown*\*unknown* (8)
+S-1-5-21-4059760142-3336171831-2262450316-1029 *unknown*\*unknown* (8)
+S-1-5-21-4059760142-3336171831-2262450316-1030 *unknown*\*unknown* (8)
+S-1-5-21-4059760142-3336171831-2262450316-1031 *unknown*\*unknown* (8)
+S-1-5-21-4059760142-3336171831-2262450316-1032 *unknown*\*unknown* (8)
+S-1-5-21-4059760142-3336171831-2262450316-1033 *unknown*\*unknown* (8)
+S-1-5-21-4059760142-3336171831-2262450316-1034 *unknown*\*unknown* (8)
+S-1-5-21-4059760142-3336171831-2262450316-1035 *unknown*\*unknown* (8)
+S-1-5-21-4059760142-3336171831-2262450316-1036 *unknown*\*unknown* (8)
+S-1-5-21-4059760142-3336171831-2262450316-1037 *unknown*\*unknown* (8)
+S-1-5-21-4059760142-3336171831-2262450316-1038 *unknown*\*unknown* (8)
+S-1-5-21-4059760142-3336171831-2262450316-1039 *unknown*\*unknown* (8)
+S-1-5-21-4059760142-3336171831-2262450316-1040 *unknown*\*unknown* (8)
+S-1-5-21-4059760142-3336171831-2262450316-1041 *unknown*\*unknown* (8)
+S-1-5-21-4059760142-3336171831-2262450316-1042 *unknown*\*unknown* (8)
+S-1-5-21-4059760142-3336171831-2262450316-1043 *unknown*\*unknown* (8)
+S-1-5-21-4059760142-3336171831-2262450316-1044 *unknown*\*unknown* (8)
+S-1-5-21-4059760142-3336171831-2262450316-1045 *unknown*\*unknown* (8)
+S-1-5-21-4059760142-3336171831-2262450316-1046 *unknown*\*unknown* (8)
+S-1-5-21-4059760142-3336171831-2262450316-1047 *unknown*\*unknown* (8)
+S-1-5-21-4059760142-3336171831-2262450316-1048 *unknown*\*unknown* (8)
+S-1-5-21-4059760142-3336171831-2262450316-1049 *unknown*\*unknown* (8)
+S-1-5-21-4059760142-3336171831-2262450316-1050 *unknown*\*unknown* (8)
+
+ ============================================= 
+|    Getting printer info for 192.168.0.33    |
+ ============================================= 
+mkdir failed on directory /var/cache/samba/lck: Permission denied
+Could not initialise spoolss. Error was NT_STATUS_OBJECT_NAME_NOT_FOUND
+
+
+enum4linux complete on Thu Aug 10 10:31:43 2017
+

@@ -1,0 +1,20 @@
+# Nmap 7.01 scan initiated Thu Aug 10 04:34:47 2017 as: nmap -oA smb-enum-users --script=smb-enum-users 192.168.0.0/24
+Host: 192.168.0.11 ()	Status: Up
+Host: 192.168.0.11 ()	Ports: 22/open/tcp//ssh///	Ignored State: closed (999)
+Host: 192.168.0.12 ()	Status: Up
+Host: 192.168.0.12 ()	Ports: 22/open/tcp//ssh///, 80/open/tcp//http///	Ignored State: closed (998)
+Host: 192.168.0.14 ()	Status: Up
+Host: 192.168.0.14 ()	Ports: 22/open/tcp//ssh///, 80/open/tcp//http///	Ignored State: closed (998)
+Host: 192.168.0.15 ()	Status: Up
+Host: 192.168.0.15 ()	Ports: 22/open/tcp//ssh///, 80/open/tcp//http///	Ignored State: closed (998)
+Host: 192.168.0.16 ()	Status: Up
+Host: 192.168.0.16 ()	Ports: 22/open/tcp//ssh///	Ignored State: closed (999)
+Host: 192.168.0.21 ()	Status: Up
+Host: 192.168.0.21 ()	Ports: 22/open/tcp//ssh///, 25/open/tcp//smtp///, 80/open/tcp//http///, 111/open/tcp//rpcbind///, 113/open/tcp//ident///, 139/open/tcp//netbios-ssn///, 2049/open/tcp//nfs///, 32782/open/tcp//unknown///	Ignored State: closed (992)
+Host: 192.168.0.22 ()	Status: Up
+Host: 192.168.0.22 ()	Ports: 22/open/tcp//ssh///, 3128/open/tcp//squid-http///, 3306/open/tcp//mysql///, 5432/open/tcp//postgresql///	Ignored State: closed (996)
+Host: 192.168.0.26 ()	Status: Up
+Host: 192.168.0.26 ()	Ports: 7/open/tcp//echo///, 9/open/tcp//discard///, 13/open/tcp//daytime///, 17/open/tcp//qotd///, 19/open/tcp//chargen///, 25/open/tcp//smtp///, 80/open/tcp//http///, 119/open/tcp//nntp///, 135/open/tcp//msrpc///, 139/open/tcp//netbios-ssn///, 443/open/tcp//https///, 445/open/tcp//microsoft-ds///, 563/open/tcp//snews///, 1025/open/tcp//NFS-or-IIS///, 1026/open/tcp//LSA-or-nterm///, 1028/open/tcp//unknown///, 1433/open/tcp//ms-sql-s///, 1723/open/tcp//pptp///, 3306/open/tcp//mysql///, 3372/open/tcp//msdtc///, 3389/open/tcp//ms-wbt-server///, 5001/open/tcp//commplex-link///, 5800/open/tcp//vnc-http///, 5900/open/tcp//vnc///, 8009/open/tcp//ajp13///, 8080/open/tcp//http-proxy///, 8081/open/tcp//blackice-icecap///, 8443/open/tcp//https-alt///	Ignored State: closed (972)
+Host: 192.168.0.33 ()	Status: Up
+Host: 192.168.0.33 ()	Ports: 53/open/tcp//domain///, 80/open/tcp//http///, 88/open/tcp//kerberos-sec///, 135/open/tcp//msrpc///, 139/open/tcp//netbios-ssn///, 389/open/tcp//ldap///, 443/open/tcp//https///, 445/open/tcp//microsoft-ds///, 464/open/tcp//kpasswd5///, 593/open/tcp//http-rpc-epmap///, 636/open/tcp//ldapssl///, 1025/open/tcp//NFS-or-IIS///, 1026/open/tcp//LSA-or-nterm///, 1028/open/tcp//unknown///, 1723/open/tcp//pptp///, 3001/open/tcp//nessus///, 3005/open/tcp//deslogin///, 3013/open/tcp//gilatskysurfer///, 3268/open/tcp//globalcatLDAP///, 3269/open/tcp//globalcatLDAPssl///, 3389/open/tcp//ms-wbt-server///	Ignored State: closed (979)
+# Nmap done at Thu Aug 10 04:35:19 2017 -- 256 IP addresses (9 hosts up) scanned in 32.27 seconds

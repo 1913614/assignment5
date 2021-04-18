@@ -1,0 +1,20 @@
+user_1913614@pentest3:~$ smbclient -N -L 192.168.0.26
+
+Anonymous login successful
+Domain=[TOM2000] OS=[Windows 5.0] Server=[Windows 2000 LAN Manager]
+
+        Sharename       Type      Comment
+        ---------       ----      -------
+        IPC$            IPC       Remote IPC
+        D$              Disk      Default share
+        ADMIN$          Disk      Remote Admin
+        C$              Disk      Default share
+        
+Anonymous login successful
+Domain=[TOM2000] OS=[Windows 5.0] Server=[Windows 2000 LAN Manager]
+
+        Server               Comment
+        ---------            -------
+
+        Workgroup            Master
+        ---------            -------
