@@ -1,0 +1,390 @@
+- Nikto v2.1.6/2.1.5
++ Target Host: 192.168.56.101
++ Target Port: 80
++ GET Retrieved x-powered-by header: PHP/5.3.2-1ubuntu4.30
++ GET The anti-clickjacking X-Frame-Options header is not present.
++ GET The X-XSS-Protection header is not defined. This header can hint to the user agent to protect against some forms of XSS
++ GET Uncommon header 'logged-in-user' found, with contents: 
++ GET The X-Content-Type-Options header is not set. This could allow the user agent to render the content of the site in a different fashion to the MIME type
++ GET Cookie PHPSESSID created without the httponly flag
++ GET Cookie showhints created without the httponly flag
++ HEAD /backup.jks: Potentially interesting archive/cert file found.
++ HEAD /backup.jks: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /192.168.tar.gz: Potentially interesting archive/cert file found.
++ HEAD /192.168.tar.gz: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /19216856101.alz: Potentially interesting archive/cert file found.
++ HEAD /19216856101.alz: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /backup.tar.lzma: Potentially interesting archive/cert file found.
++ HEAD /backup.tar.lzma: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /192.168.56.tgz: Potentially interesting archive/cert file found.
++ HEAD /192.168.56.tgz: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /101.tar.gz: Potentially interesting archive/cert file found.
++ HEAD /101.tar.gz: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /192.tar.bz2: Potentially interesting archive/cert file found.
++ HEAD /192.tar.bz2: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /19216856.cer: Potentially interesting archive/cert file found.
++ HEAD /19216856.cer: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /19216856101.pem: Potentially interesting archive/cert file found.
++ HEAD /19216856101.pem: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /192.168.tgz: Potentially interesting archive/cert file found.
++ HEAD /192.168.tgz: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /19216856.war: Potentially interesting archive/cert file found.
++ HEAD /19216856.war: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /192168.alz: Potentially interesting archive/cert file found.
++ HEAD /192168.alz: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /192.168.56.101.alz: Potentially interesting archive/cert file found.
++ HEAD /192.168.56.101.alz: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /192168.tar.bz2: Potentially interesting archive/cert file found.
++ HEAD /192168.tar.bz2: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /192.168.tar: Potentially interesting archive/cert file found.
++ HEAD /192.168.tar: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /168.war: Potentially interesting archive/cert file found.
++ HEAD /168.war: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /site.alz: Potentially interesting archive/cert file found.
++ HEAD /site.alz: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /19216856101.tar.bz2: Potentially interesting archive/cert file found.
++ HEAD /19216856101.tar.bz2: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /19216856101.war: Potentially interesting archive/cert file found.
++ HEAD /19216856101.war: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /site.tgz: Potentially interesting archive/cert file found.
++ HEAD /site.tgz: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /192168.egg: Potentially interesting archive/cert file found.
++ HEAD /192168.egg: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /56.jks: Potentially interesting archive/cert file found.
++ HEAD /56.jks: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /101.tar.lzma: Potentially interesting archive/cert file found.
++ HEAD /101.tar.lzma: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /192.168.56.cer: Potentially interesting archive/cert file found.
++ HEAD /192.168.56.cer: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /56.tar.bz2: Potentially interesting archive/cert file found.
++ HEAD /56.tar.bz2: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /19216856.pem: Potentially interesting archive/cert file found.
++ HEAD /19216856.pem: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /19216856.alz: Potentially interesting archive/cert file found.
++ HEAD /19216856.alz: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /19216856.tgz: Potentially interesting archive/cert file found.
++ HEAD /19216856.tgz: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /192168.tgz: Potentially interesting archive/cert file found.
++ HEAD /192168.tgz: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /192.war: Potentially interesting archive/cert file found.
++ HEAD /192.war: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /19216856101.egg: Potentially interesting archive/cert file found.
++ HEAD /19216856101.egg: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /backup.pem: Potentially interesting archive/cert file found.
++ HEAD /backup.pem: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /192.168.56.jks: Potentially interesting archive/cert file found.
++ HEAD /192.168.56.jks: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /192.168.56.101.egg: Potentially interesting archive/cert file found.
++ HEAD /192.168.56.101.egg: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /101.cer: Potentially interesting archive/cert file found.
++ HEAD /101.cer: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /192.168.56.101.zip: Potentially interesting archive/cert file found.
++ HEAD /192.168.56.101.zip: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /168.tar.bz2: Potentially interesting archive/cert file found.
++ HEAD /168.tar.bz2: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /192.168.cer: Potentially interesting archive/cert file found.
++ HEAD /192.168.cer: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /site.tar.lzma: Potentially interesting archive/cert file found.
++ HEAD /site.tar.lzma: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /19216856.jks: Potentially interesting archive/cert file found.
++ HEAD /19216856.jks: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /192.168.56.101.pem: Potentially interesting archive/cert file found.
++ HEAD /192.168.56.101.pem: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /192.168.zip: Potentially interesting archive/cert file found.
++ HEAD /192.168.zip: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /192168.cer: Potentially interesting archive/cert file found.
++ HEAD /192168.cer: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /19216856.tar.lzma: Potentially interesting archive/cert file found.
++ HEAD /19216856.tar.lzma: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /192.168.56.101.tgz: Potentially interesting archive/cert file found.
++ HEAD /192.168.56.101.tgz: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /192_168_56_101.pem: Potentially interesting archive/cert file found.
++ HEAD /192_168_56_101.pem: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /101.war: Potentially interesting archive/cert file found.
++ HEAD /101.war: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /56.zip: Potentially interesting archive/cert file found.
++ HEAD /56.zip: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /192_168_56_101.tgz: Potentially interesting archive/cert file found.
++ HEAD /192_168_56_101.tgz: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /192.168.56.war: Potentially interesting archive/cert file found.
++ HEAD /192.168.56.war: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /192_168_56_101.zip: Potentially interesting archive/cert file found.
++ HEAD /192_168_56_101.zip: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /192.cer: Potentially interesting archive/cert file found.
++ HEAD /192.cer: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /site.pem: Potentially interesting archive/cert file found.
++ HEAD /site.pem: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /56.sql: Potentially interesting archive/cert file found.
++ HEAD /56.sql: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /19216856.sql: Potentially interesting archive/cert file found.
++ HEAD /19216856.sql: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /168.tar.lzma: Potentially interesting archive/cert file found.
++ HEAD /168.tar.lzma: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /site.tar.gz: Potentially interesting archive/cert file found.
++ HEAD /site.tar.gz: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /backup.tar.gz: Potentially interesting archive/cert file found.
++ HEAD /backup.tar.gz: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /192.168.56.tar.lzma: Potentially interesting archive/cert file found.
++ HEAD /192.168.56.tar.lzma: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /192_168_56_101.egg: Potentially interesting archive/cert file found.
++ HEAD /192_168_56_101.egg: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /site.egg: Potentially interesting archive/cert file found.
++ HEAD /site.egg: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /56.war: Potentially interesting archive/cert file found.
++ HEAD /56.war: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /168.tar.gz: Potentially interesting archive/cert file found.
++ HEAD /168.tar.gz: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /19216856.tar.gz: Potentially interesting archive/cert file found.
++ HEAD /19216856.tar.gz: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /backup.zip: Potentially interesting archive/cert file found.
++ HEAD /backup.zip: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /backup.war: Potentially interesting archive/cert file found.
++ HEAD /backup.war: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /192.168.tar.lzma: Potentially interesting archive/cert file found.
++ HEAD /192.168.tar.lzma: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /192.tar.gz: Potentially interesting archive/cert file found.
++ HEAD /192.tar.gz: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /101.tar.bz2: Potentially interesting archive/cert file found.
++ HEAD /101.tar.bz2: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /backup.sql: Potentially interesting archive/cert file found.
++ HEAD /backup.sql: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /192.168.egg: Potentially interesting archive/cert file found.
++ HEAD /192.168.egg: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /192.168.56.sql: Potentially interesting archive/cert file found.
++ HEAD /192.168.56.sql: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /19216856.tar.bz2: Potentially interesting archive/cert file found.
++ HEAD /19216856.tar.bz2: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /56.tar: Potentially interesting archive/cert file found.
++ HEAD /56.tar: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /56.tgz: Potentially interesting archive/cert file found.
++ HEAD /56.tgz: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /192.168.pem: Potentially interesting archive/cert file found.
++ HEAD /192.168.pem: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /19216856.zip: Potentially interesting archive/cert file found.
++ HEAD /19216856.zip: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /192_168_56_101.alz: Potentially interesting archive/cert file found.
++ HEAD /192_168_56_101.alz: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /backup.tar: Potentially interesting archive/cert file found.
++ HEAD /backup.tar: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /192.tar.lzma: Potentially interesting archive/cert file found.
++ HEAD /192.tar.lzma: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /168.cer: Potentially interesting archive/cert file found.
++ HEAD /168.cer: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /192.168.56.zip: Potentially interesting archive/cert file found.
++ HEAD /192.168.56.zip: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /19216856101.tar.gz: Potentially interesting archive/cert file found.
++ HEAD /19216856101.tar.gz: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /101.alz: Potentially interesting archive/cert file found.
++ HEAD /101.alz: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /192.168.56.tar.bz2: Potentially interesting archive/cert file found.
++ HEAD /192.168.56.tar.bz2: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /168.pem: Potentially interesting archive/cert file found.
++ HEAD /168.pem: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /192168.sql: Potentially interesting archive/cert file found.
++ HEAD /192168.sql: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /101.jks: Potentially interesting archive/cert file found.
++ HEAD /101.jks: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /192.168.sql: Potentially interesting archive/cert file found.
++ HEAD /192.168.sql: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /site.tar: Potentially interesting archive/cert file found.
++ HEAD /site.tar: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /192.168.56.alz: Potentially interesting archive/cert file found.
++ HEAD /192.168.56.alz: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /101.zip: Potentially interesting archive/cert file found.
++ HEAD /101.zip: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /56.egg: Potentially interesting archive/cert file found.
++ HEAD /56.egg: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /101.tgz: Potentially interesting archive/cert file found.
++ HEAD /101.tgz: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /192.egg: Potentially interesting archive/cert file found.
++ HEAD /192.egg: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /192168.tar: Potentially interesting archive/cert file found.
++ HEAD /192168.tar: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /56.pem: Potentially interesting archive/cert file found.
++ HEAD /56.pem: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /19216856.tar: Potentially interesting archive/cert file found.
++ HEAD /19216856.tar: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /56.tar.gz: Potentially interesting archive/cert file found.
++ HEAD /56.tar.gz: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /site.zip: Potentially interesting archive/cert file found.
++ HEAD /site.zip: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /192_168_56_101.tar.bz2: Potentially interesting archive/cert file found.
++ HEAD /192_168_56_101.tar.bz2: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /192.168.56.101.war: Potentially interesting archive/cert file found.
++ HEAD /192.168.56.101.war: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /192.168.56.101.tar.lzma: Potentially interesting archive/cert file found.
++ HEAD /192.168.56.101.tar.lzma: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /192.168.56.101.tar: Potentially interesting archive/cert file found.
++ HEAD /192.168.56.101.tar: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /site.tar.bz2: Potentially interesting archive/cert file found.
++ HEAD /site.tar.bz2: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /192_168_56_101.cer: Potentially interesting archive/cert file found.
++ HEAD /192_168_56_101.cer: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /192.168.56.101.jks: Potentially interesting archive/cert file found.
++ HEAD /192.168.56.101.jks: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /101.sql: Potentially interesting archive/cert file found.
++ HEAD /101.sql: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /168.egg: Potentially interesting archive/cert file found.
++ HEAD /168.egg: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /19216856101.tar.lzma: Potentially interesting archive/cert file found.
++ HEAD /19216856101.tar.lzma: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /192.168.tar.bz2: Potentially interesting archive/cert file found.
++ HEAD /192.168.tar.bz2: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /site.war: Potentially interesting archive/cert file found.
++ HEAD /site.war: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /192_168_56_101.tar.gz: Potentially interesting archive/cert file found.
++ HEAD /192_168_56_101.tar.gz: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /101.tar: Potentially interesting archive/cert file found.
++ HEAD /101.tar: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /192168.war: Potentially interesting archive/cert file found.
++ HEAD /192168.war: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /192168.zip: Potentially interesting archive/cert file found.
++ HEAD /192168.zip: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /56.alz: Potentially interesting archive/cert file found.
++ HEAD /56.alz: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /192.pem: Potentially interesting archive/cert file found.
++ HEAD /192.pem: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /192_168_56_101.sql: Potentially interesting archive/cert file found.
++ HEAD /192_168_56_101.sql: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /192168.tar.gz: Potentially interesting archive/cert file found.
++ HEAD /192168.tar.gz: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /192168.pem: Potentially interesting archive/cert file found.
++ HEAD /192168.pem: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /168.zip: Potentially interesting archive/cert file found.
++ HEAD /168.zip: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /192.168.56.101.sql: Potentially interesting archive/cert file found.
++ HEAD /192.168.56.101.sql: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /192.168.56.tar.gz: Potentially interesting archive/cert file found.
++ HEAD /192.168.56.tar.gz: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /192.168.56.101.tar.gz: Potentially interesting archive/cert file found.
++ HEAD /192.168.56.101.tar.gz: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /192.sql: Potentially interesting archive/cert file found.
++ HEAD /192.sql: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /backup.tgz: Potentially interesting archive/cert file found.
++ HEAD /backup.tgz: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /19216856101.tgz: Potentially interesting archive/cert file found.
++ HEAD /19216856101.tgz: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /19216856101.sql: Potentially interesting archive/cert file found.
++ HEAD /19216856101.sql: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /168.tgz: Potentially interesting archive/cert file found.
++ HEAD /168.tgz: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /192.168.war: Potentially interesting archive/cert file found.
++ HEAD /192.168.war: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /19216856101.cer: Potentially interesting archive/cert file found.
++ HEAD /19216856101.cer: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /backup.cer: Potentially interesting archive/cert file found.
++ HEAD /backup.cer: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /56.cer: Potentially interesting archive/cert file found.
++ HEAD /56.cer: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /192.168.56.pem: Potentially interesting archive/cert file found.
++ HEAD /192.168.56.pem: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /192.168.56.egg: Potentially interesting archive/cert file found.
++ HEAD /192.168.56.egg: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /168.alz: Potentially interesting archive/cert file found.
++ HEAD /168.alz: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /192.tar: Potentially interesting archive/cert file found.
++ HEAD /192.tar: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /192.168.56.101.tar.bz2: Potentially interesting archive/cert file found.
++ HEAD /192.168.56.101.tar.bz2: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /192.168.alz: Potentially interesting archive/cert file found.
++ HEAD /192.168.alz: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /192_168_56_101.tar: Potentially interesting archive/cert file found.
++ HEAD /192_168_56_101.tar: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /101.pem: Potentially interesting archive/cert file found.
++ HEAD /101.pem: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /192_168_56_101.war: Potentially interesting archive/cert file found.
++ HEAD /192_168_56_101.war: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /192_168_56_101.tar.lzma: Potentially interesting archive/cert file found.
++ HEAD /192_168_56_101.tar.lzma: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /site.jks: Potentially interesting archive/cert file found.
++ HEAD /site.jks: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /168.jks: Potentially interesting archive/cert file found.
++ HEAD /168.jks: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /192_168_56_101.jks: Potentially interesting archive/cert file found.
++ HEAD /192_168_56_101.jks: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /192.168.56.101.cer: Potentially interesting archive/cert file found.
++ HEAD /192.168.56.101.cer: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /19216856.egg: Potentially interesting archive/cert file found.
++ HEAD /19216856.egg: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /168.tar: Potentially interesting archive/cert file found.
++ HEAD /168.tar: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /backup.tar.bz2: Potentially interesting archive/cert file found.
++ HEAD /backup.tar.bz2: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /192.alz: Potentially interesting archive/cert file found.
++ HEAD /192.alz: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /56.tar.lzma: Potentially interesting archive/cert file found.
++ HEAD /56.tar.lzma: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /backup.alz: Potentially interesting archive/cert file found.
++ HEAD /backup.alz: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /192168.tar.lzma: Potentially interesting archive/cert file found.
++ HEAD /192168.tar.lzma: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /192.jks: Potentially interesting archive/cert file found.
++ HEAD /192.jks: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /192.168.56.tar: Potentially interesting archive/cert file found.
++ HEAD /192.168.56.tar: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /192168.jks: Potentially interesting archive/cert file found.
++ HEAD /192168.jks: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /192.168.jks: Potentially interesting archive/cert file found.
++ HEAD /192.168.jks: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /19216856101.tar: Potentially interesting archive/cert file found.
++ HEAD /19216856101.tar: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /192.zip: Potentially interesting archive/cert file found.
++ HEAD /192.zip: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /site.cer: Potentially interesting archive/cert file found.
++ HEAD /site.cer: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /19216856101.jks: Potentially interesting archive/cert file found.
++ HEAD /19216856101.jks: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /backup.egg: Potentially interesting archive/cert file found.
++ HEAD /backup.egg: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /site.sql: Potentially interesting archive/cert file found.
++ HEAD /site.sql: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /19216856101.zip: Potentially interesting archive/cert file found.
++ HEAD /19216856101.zip: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /192.tgz: Potentially interesting archive/cert file found.
++ HEAD /192.tgz: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /101.egg: Potentially interesting archive/cert file found.
++ HEAD /101.egg: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /168.sql: Potentially interesting archive/cert file found.
++ HEAD /168.sql: Potentially interesting archive/cert file found. (NOTE: requested by IP address).
++ HEAD /mutillidae/index.php: OpenSSL/0.9.8k appears to be outdated (current is at least 1.1.1). OpenSSL 1.0.0o and 0.9.8zc are also current.
++ HEAD /mutillidae/index.php: Python/2.6.5 appears to be outdated (current is at least 2.7.8)
++ HEAD /mutillidae/index.php: mod_perl/2.0.4 appears to be outdated (current is at least 2.0.8)
++ HEAD /mutillidae/index.php: Apache/2.2.14 appears to be outdated (current is at least Apache/2.4.37). Apache 2.2.34 is the EOL for the 2.x branch.
++ HEAD /mutillidae/index.php: PHP/5.3.2-1ubuntu4.30 appears to be outdated (current is at least 7.2.12). PHP 5.6.33, 7.0.27, 7.1.13, 7.2.1 may also current release for each branch.
++ HEAD /mutillidae/index.php: Phusion_Passenger/4.0.38 appears to be outdated (current is at least 4.0.53)
++ HEAD /mutillidae/index.php: Perl/v5.10.1 appears to be outdated (current is at least v5.20.0)
++ HEAD /mutillidae/index.php: proxy_html/3.0.1 appears to be outdated (current is at least 3.1.2)
++ HEAD /mutillidae/index.php: mod_mono/2.4.3 appears to be outdated (current is at least 2.8)
++ HEAD /mutillidae/index.php: mod_ssl/2.2.14 appears to be outdated (current is at least 2.8.31) (may depend on server version)
++ GET /mutillidae/index.php: mod_ssl/2.2.14 OpenSSL/0.9.8k Phusion_Passenger/4.0.38 mod_perl/2.0.4 Perl/v5.10.1 - mod_ssl 2.8.7 and lower are vulnerable to a remote buffer overflow which may allow a remote shell. CVE-2002-0082, OSVDB-756.
++ OPTIONS Allowed HTTP Methods: GET, HEAD, POST, OPTIONS, TRACE 
++ YWCWTATE Web Server returns a valid response with junk HTTP methods, this may cause false positives.
++ DEBUG DEBUG HTTP verb may show server debugging information. See http://msdn.microsoft.com/en-us/library/e8z01xdh%28VS.80%29.aspx for details.
++ OSVDB-877: TRACE HTTP TRACE method is active, suggesting the host is vulnerable to XST
++ GET /mutillidae/index.php/kboard/: KBoard Forum 0.3.0 and prior have a security problem in forum_edit_post.php, forum_post.php and forum_reply.php
++ GET /mutillidae/index.php/lists/admin/: PHPList pre 2.6.4 contains a number of vulnerabilities including remote administrative access, harvesting user info and more. Default login to admin interface is admin/phplist
++ GET /mutillidae/index.php/splashAdmin.php: Cobalt Qube 3 admin is running. This may have multiple security problems as described by www.scan-associates.net. These could not be tested remotely.
++ GET /mutillidae/index.php/ssdefs/: Siteseed pre 1.4.2 has 'major' security problems.
++ GET /mutillidae/index.php/sshome/: Siteseed pre 1.4.2 has 'major' security problems.
++ GET /mutillidae/index.php/tiki/: Tiki 1.7.2 and previous allowed restricted Wiki pages to be viewed via a 'URL trick'. Default login/pass could be admin/admin
++ GET /mutillidae/index.php/tiki/tiki-install.php: Tiki 1.7.2 and previous allowed restricted Wiki pages to be viewed via a 'URL trick'. Default login/pass could be admin/admin
++ GET /mutillidae/index.php/scripts/samples/details.idc: See RFP 9901; www.wiretrip.net
++ OSVDB-59620: GET /mutillidae/index.php/inc/common.load.php: Bookmark4U v1.8.3 include files are not protected and may contain remote source injection by using the 'prefix' variable.
++ OSVDB-59619: GET /mutillidae/index.php/inc/config.php: Bookmark4U v1.8.3 include files are not protected and may contain remote source injection by using the 'prefix' variable.
++ OSVDB-59618: GET /mutillidae/index.php/inc/dbase.php: Bookmark4U v1.8.3 include files are not protected and may contain remote source injection by using the 'prefix' variable.
++ GET /mutillidae/index.php/basilix/mbox-list.php3: BasiliX webmail application prior to 1.1.1 contains a XSS issue in 'message list' function/page
++ GET /mutillidae/index.php/basilix/message-read.php3: BasiliX webmail application prior to 1.1.1 contains a XSS issue in 'read message' function/page
++ GET /mutillidae/index.php/clusterframe.jsp: Macromedia JRun 4 build 61650 remote administration interface is vulnerable to several XSS attacks.
++ GET /mutillidae/index.php/IlohaMail/blank.html: IlohaMail 0.8.10 contains a XSS vulnerability. Previous versions contain other non-descript vulnerabilities.
++ GET /mutillidae/index.php/forum/admin/database/wwForum.mdb: Web Wiz Forums pre 7.5 is vulnerable to Cross-Site Scripting attacks. Default login/pass is Administrator/letmein
++ GET /mutillidae/index.php/webmail/blank.html: IlohaMail 0.8.10 contains an XSS vulnerability. Previous versions contain other non-descript vulnerabilities.
++ OSVDB-27071: GET /mutillidae/index.php/phpimageview.php?pic=javascript:alert(8754): PHP Image View 1.0 is vulnerable to Cross Site Scripting (XSS).  CA-2000-02.
++ OSVDB-2767: GET /mutillidae/index.php/openautoclassifieds/friendmail.php?listing=<script>alert(document.domain);</script>: OpenAutoClassifieds 1.0 is vulnerable to a XSS attack
++ GET /mutillidae/index.php/modules.php?op=modload&name=FAQ&file=index&myfaq=yes&id_cat=1&categories=%3Cimg%20src=javascript:alert(9456);%3E&parent_id=0: Post Nuke 0.7.2.3-Phoenix is vulnerable to Cross Site Scripting (XSS). CA-2000-02.
++ GET /mutillidae/index.php/modules.php?letter=%22%3E%3Cimg%20src=javascript:alert(document.cookie);%3E&op=modload&name=Members_List&file=index: Post Nuke 0.7.2.3-Phoenix is vulnerable to Cross Site Scripting (XSS). CA-2000-02.
++ OSVDB-4598: GET /mutillidae/index.php/members.asp?SF=%22;}alert(223344);function%20x(){v%20=%22: Web Wiz Forums ver. 7.01 and below is vulnerable to Cross Site Scripting (XSS). CA-2000-02.
++ OSVDB-4015: GET /mutillidae/index.php/jigsaw/: Jigsaw server may be installed. Versions lower than 2.2.1 are vulnerable to Cross Site Scripting (XSS) in the error page.
++ OSVDB-2754: GET /mutillidae/index.php/guestbook/?number=5&lng=%3Cscript%3Ealert(document.domain);%3C/script%3E: MPM Guestbook 1.2 and previous are vulnreable to XSS attacks.
++ OSVDB-2946: GET /mutillidae/index.php/forum_members.asp?find=%22;}alert(9823);function%20x(){v%20=%22: Web Wiz Forums ver. 7.01 and below is vulnerable to Cross Site Scripting (XSS). CA-2000-02.
++ GET /mutillidae/index.php/anthill/login.php: Anthill bug tracking system may be installed. Versions lower than 0.1.6.1 allow XSS/HTML injection and may allow users to bypass login requirements. http://anthill.vmlinuz.ca/ and CA-2000-02
++ OSVDB-2813: GET /mutillidae/index.php/admin/database/wwForum.mdb: Web Wiz Forums pre 7.5 is vulnerable to Cross-Site Scripting attacks. Default login/pass is Administrator/letmein
